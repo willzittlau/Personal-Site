@@ -5,7 +5,7 @@
       <h1 class="title">
         Will Zittlau
       </h1>
-      <Test />
+      <Test /> <!-- Vue component -->
       <nuxt-content :document="doc" />
       <div class="links">
         <a

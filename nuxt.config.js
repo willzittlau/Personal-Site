@@ -54,7 +54,16 @@ export default {
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
-    '@nuxt/content'
+    '@nuxt/content',
+    ['nuxt-fontawesome', {
+      component: 'fa',
+      imports: [
+        {
+          set: '@fortawesome/free-brands-svg-icons',
+          icons: ['faGithub', 'faInstagram', 'faLinkedin']
+        }
+      ]
+    }]
   ],
   /*
   ** Build configuration
