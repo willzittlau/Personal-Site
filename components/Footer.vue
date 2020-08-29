@@ -3,13 +3,18 @@
     <div class="columns is-gapless is-centered is-vcentered">
       <div class="column is-one-quarter has-text-centered">
         <span>
-          <a href="https://github.com/willzittlau">
-            <fa :icon="['fab', 'github']" style="font-size: 30px" />&nbsp;&nbsp;&nbsp;
+          <a href="https://www.strava.com/athletes/8709142">
+            <fa :icon="['fab', 'strava']" style="font-size: 30px" />&nbsp;&nbsp;&nbsp;
           </a>
         </span>
         <span>
           <a href="https://www.instagram.com/willzittlau/">
             <fa :icon="['fab', 'instagram']" style="font-size: 30px" />&nbsp;&nbsp;&nbsp;
+          </a>
+        </span>
+        <span>
+          <a href="https://github.com/willzittlau">
+            <fa :icon="['fab', 'github']" style="font-size: 30px" />&nbsp;&nbsp;&nbsp;
           </a>
         </span>
         <span>
