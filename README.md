@@ -1,4 +1,6 @@
-# site
+# Personal site for blog/portfolio
+
+Built with Nuxt, Bulma, and Netlify. Work in Progress.
 
 ## Build Setup
 
