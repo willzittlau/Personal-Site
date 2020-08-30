@@ -32,7 +32,7 @@
 export default {
   components: {},
   async asyncData({ $content }) {
-    const doc = await $content('hiatus').fetch();
+    const doc = await $content('articles/hiatus').fetch();
     return { doc };
   },
     mounted() {

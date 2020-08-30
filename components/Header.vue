@@ -37,6 +37,7 @@
           </div>
         </div>
         <a class="navbar-item" href="#">Contact</a>
+        <NuxtLink class="navbar-item" to=#>CV</NuxtLink>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
     </div>
