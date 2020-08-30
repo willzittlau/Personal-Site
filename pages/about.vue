@@ -1,12 +1,16 @@
 <template>
-<div>
-  <h1>Hello from About this page</h1>
+<div class="container">
+  <nuxt-content :document="mdContent" />
 </div>
 </template>
 
 <script>
 export default {
-
+  components: {},
+  async asyncData({ $content }) {
+    const mdContent = await $content('pages/about').fetch();
+    return { mdContent };
+  }
 }
 </script>
 
