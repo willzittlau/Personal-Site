@@ -1,16 +1,27 @@
 <template>
+<!-- Bulma navbar -->
   <nav class="navbar is-white">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <!--Logo / home ref -->
     <div class="navbar-brand">
       <a class="navbar-item" id="logo" href="/">
         <img src="~/static/400x400-logo.png" />
       </a>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" @click="isOpen = !isOpen" v-bind:class="{'is-active': isOpen}">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+    <!--Hamburger for mobile, vue binding for onclick-->
+      <a
+        role="button"
+        class="navbar-burger"
+        aria-label="menu"
+        aria-expanded="false"
+        @click="isOpen = !isOpen"
+        v-bind:class="{'is-active': isOpen}"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
+    <!-- Other links -->
     <div class="navbar-menu" v-bind:class="{'is-active': isOpen}">
       <div class="navbar-end">
         <a class="navbar-item" href="/about">About</a>
@@ -32,26 +43,28 @@
   </nav>
 </template>
 
+<!-- Vue binding script-->
 <script>
 export default {
-    data: function() {
-        return {
-            isOpen: false
-        }
-    }
-}
+  data: function () {
+    return {
+      isOpen: false,
+    };
+  },
+};
 </script>
 
-<style>
 
+<!-- Override Bulma defaults-->
+<style>
 .navbar-burger span {
-    width:25px;
+  width: 25px;
 }
 
 .navbar-burger {
-    width: 100px;
-    height: 100px;
-    }
+  width: 100px;
+  height: 100px;
+}
 
 .navbar-item img {
   max-height: 100px;
