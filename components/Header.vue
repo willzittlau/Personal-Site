@@ -24,16 +24,16 @@
     <!-- Other links -->
     <div class="navbar-menu" v-bind:class="{'is-active': isOpen}">
       <div class="navbar-end">
-        <a class="navbar-item" href="/about">About</a>
-        <a class="navbar-item" href="#">Projects</a>
+        <NuxtLink class="navbar-item" to="/About">About</NuxtLink>
+        <NuxtLink class="navbar-item" to="#">Projects</NuxtLink>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="###">Blog</a>
+          <NuxtLink class="navbar-link" to="/Blog">Blog</NuxtLink>
           <div class="navbar-dropdown is-boxed is-right">
-            <a class="navbar-item" href="#">Skiing</a>
-            <a class="navbar-item" href="#">Biking</a>
-            <a class="navbar-item" href="#">Running</a>
-            <a class="navbar-item" href="#">Climbing</a>
-            <a class="navbar-item" href="#">Hiking</a>
+            <NuxtLink class="navbar-item" to="#">Skiing</NuxtLink>
+            <NuxtLink class="navbar-item" to="#">Biking</NuxtLink>
+            <NuxtLink class="navbar-item" to="#">Running</NuxtLink>
+            <NuxtLink class="navbar-item" to="#">Climbing</NuxtLink>
+            <NuxtLink class="navbar-item" to="#">Hiking</NuxtLink>
           </div>
         </div>
         <a class="navbar-item" href="#">Contact</a>

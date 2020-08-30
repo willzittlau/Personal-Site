@@ -35,6 +35,13 @@ export default {
   async asyncData({ $content }) {
     const doc = await $content('hiatus').fetch();
     return { doc };
+  },
+    mounted() {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+
+      setTimeout(() => this.$nuxt.$loading.finish(), 250)
+    })
   }
 }
 </script>
