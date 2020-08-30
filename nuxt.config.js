@@ -15,7 +15,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    //title: process.env.npm_package_name || '',
     title: 'Will Zittlau',
     meta: [
       { charset: 'utf-8' },
@@ -23,7 +22,6 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      //{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       { rel: 'icon', type: 'image/png', sizes:'96x96', href: '/favicon-96x96.png' }
     ]
   },
@@ -31,6 +29,7 @@ export default {
   ** Global CSS
   */
   css: [
+    { src: '~assets/main.css', lang: 'css' }
   ],
   /*
   ** Plugins to load before mounting the App
