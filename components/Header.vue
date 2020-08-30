@@ -57,7 +57,7 @@ export default {
 
 
 <!-- Override Bulma defaults-->
-<style>
+<style scoped>
 .navbar-burger span {
   width: 25px;
 }

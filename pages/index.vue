@@ -1,29 +1,10 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title">
-        Will Zittlau
-      </h1>
-      <Test /> <!-- Vue component -->
+      <h1 class="title">Will Zittlau</h1>
+      <Test />
+      <!-- Vue component -->
       <nuxt-content :document="doc" />
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
     </div>
   </div>
 </template>
@@ -32,41 +13,32 @@
 export default {
   components: {},
   async asyncData({ $content }) {
-    const doc = await $content('articles/hiatus').fetch();
+    const doc = await $content("articles/hiatus").fetch();
     return { doc };
   },
-    mounted() {
+  mounted() {
     this.$nextTick(() => {
-      this.$nuxt.$loading.start()
+      this.$nuxt.$loading.start();
 
-      setTimeout(() => this.$nuxt.$loading.finish(), 250)
-    })
-  }
-}
+      setTimeout(() => this.$nuxt.$loading.finish(), 250);
+    });
+  },
+};
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 60px;
