@@ -36,8 +36,8 @@
             <NuxtLink class="navbar-item" to="#">Hiking</NuxtLink>
           </div>
         </div>
-        <a class="navbar-item" href="#">Contact</a>
-        <NuxtLink class="navbar-item" to=#>CV</NuxtLink>
+        <NuxtLink class="navbar-item" to="#">Contact</NuxtLink>
+        <a class="navbar-item" href="/resume.pdf" target="_blank">CV</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
     </div>
