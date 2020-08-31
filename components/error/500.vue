@@ -1,5 +1,6 @@
 <template>
-  <div class="error-500">
+  <div class="container">
+    <br><br>
     <h1>500 - Internal Error</h1>
     <p>You managed to break a static site!</p>
     <p>

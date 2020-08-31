@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      <br><br>
+    <br><br>
     <h1>404 -This page doesn’t exist.</h1>
     <p>The link you clicked on may be broken or no longer exist.</p>
     <p>Return <span>
