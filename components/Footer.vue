@@ -29,7 +29,7 @@
         <br />
         <span>
           <a href="https://nuxtjs.org/">
-            <img width="100" height="18" src="~/static/built-with-nuxt-light.svg" />
+            <img width="100" height="18" src="~assets/built-with-nuxt-light.svg" />
           </a>
         </span>
         and made with

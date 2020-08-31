@@ -5,7 +5,7 @@
     <!--Logo / home ref -->
     <div class="navbar-brand">
       <a class="navbar-item" id="logo" href="/">
-        <img src="~/static/400x400-logo.png" />
+        <img src="~assets/400x400-logo.png" />
       </a>
     <!--Hamburger for mobile, vue binding for onclick-->
       <a
