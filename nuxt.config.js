@@ -60,6 +60,10 @@ export default {
         {
           set: '@fortawesome/free-brands-svg-icons',
           icons: ['faGithub', 'faInstagram', 'faLinkedin', 'faStrava']
+        },
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['faChevronUp']
         }
       ]
     }]

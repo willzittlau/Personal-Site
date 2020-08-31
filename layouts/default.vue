@@ -3,6 +3,7 @@
     <Header />
     <Nuxt />
     <div id="wrapper"></div>
+    <Back2Top />
     <Footer />
   </div>
 </template>
