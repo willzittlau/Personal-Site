@@ -24,10 +24,10 @@
     <!-- Other links -->
     <div class="navbar-menu" v-bind:class="{'is-active': isOpen}">
       <div class="navbar-end">
-        <NuxtLink class="navbar-item" to="/About">About</NuxtLink>
+        <NuxtLink class="navbar-item" to="/about">About</NuxtLink>
         <NuxtLink class="navbar-item" to="#">Projects</NuxtLink>
         <div class="navbar-item has-dropdown is-hoverable">
-          <NuxtLink class="navbar-link" to="/Blog">Blog</NuxtLink>
+          <NuxtLink class="navbar-link" to="/blog">Blog</NuxtLink>
           <div class="navbar-dropdown is-boxed is-right">
             <NuxtLink class="navbar-item" to="#">Skiing</NuxtLink>
             <NuxtLink class="navbar-item" to="#">Biking</NuxtLink>
@@ -36,7 +36,7 @@
             <NuxtLink class="navbar-item" to="#">Hiking</NuxtLink>
           </div>
         </div>
-        <NuxtLink class="navbar-item" to="#">Contact</NuxtLink>
+        <NuxtLink class="navbar-item" to="/contact">Contact</NuxtLink>
         <a class="navbar-item" href="/resume.pdf" target="_blank">CV</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
