@@ -23,6 +23,9 @@
     </div>
     <!-- Other links -->
     <div class="navbar-menu" v-bind:class="{'is-active': isOpen}">
+      <div class="navbar-start">
+      <Search class="navbar-item"/>
+    </div>
       <div class="navbar-end">
         <NuxtLink class="navbar-item" to="/about">About</NuxtLink>
         <NuxtLink class="navbar-item" to="#">Projects</NuxtLink>
