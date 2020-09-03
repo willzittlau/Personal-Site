@@ -1,6 +1,8 @@
 ---
 title: "Hiatus"
 date: "2019-03-28"
+tags:
+  - test
 ---
 
 # Hello from Markdown
