@@ -1,11 +1,33 @@
 <template>
-    <h1>Hello from blog index</h1>
+  <div class = "container">
+    <h1>All Blog Posts</h1>
+    <ul>
+      <li v-for="article of articles" :key="article.slug">
+        <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+          <img :src="article.img" />
+          <div>
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.description }}</p>
+          </div>
+        </NuxtLink>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
-export default {
+  export default {
+    async asyncData({ $content, params }) {
+      const articles = await $content('articles', params.slug)
+        .only(['title', 'description', 'img', 'slug'])
+        .sortBy('createdAt', 'asc')
+        .fetch()
 
-}
+      return {
+        articles
+      }
+    }
+  }
 </script>
 
 <style scoped>
