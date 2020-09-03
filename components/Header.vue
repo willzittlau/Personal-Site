@@ -28,15 +28,15 @@
     </div>
       <div class="navbar-end">
         <NuxtLink class="navbar-item" to="/about">About</NuxtLink>
-        <NuxtLink class="navbar-item" to="#">Projects</NuxtLink>
+        <NuxtLink class="navbar-item" to="/tags/projects">Projects</NuxtLink>
         <div class="navbar-item has-dropdown is-hoverable">
           <NuxtLink class="navbar-link" to="/blog">Blog</NuxtLink>
           <div class="navbar-dropdown is-boxed is-right">
-            <NuxtLink class="navbar-item" to="#">Skiing</NuxtLink>
-            <NuxtLink class="navbar-item" to="#">Biking</NuxtLink>
-            <NuxtLink class="navbar-item" to="#">Running</NuxtLink>
-            <NuxtLink class="navbar-item" to="#">Climbing</NuxtLink>
-            <NuxtLink class="navbar-item" to="#">Hiking</NuxtLink>
+            <NuxtLink class="navbar-item" to="/tags/skiing">Skiing</NuxtLink>
+            <NuxtLink class="navbar-item" to="/tags/biking">Biking</NuxtLink>
+            <NuxtLink class="navbar-item" to="/tags/running">Running</NuxtLink>
+            <NuxtLink class="navbar-item" to="/tags/climbing">Climbing</NuxtLink>
+            <NuxtLink class="navbar-item" to="/tags/hiking">Hiking</NuxtLink>
           </div>
         </div>
         <NuxtLink class="navbar-item" to="/contact">Contact</NuxtLink>
