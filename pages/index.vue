@@ -1,21 +1,11 @@
 <template>
   <div class="container">
-    <div>
-      <h1 class="title">Will Zittlau</h1>
-      <Test />
-      <!-- Vue component -->
-      <nuxt-content :document="doc" />
-    </div>
+    <Hero />
   </div>
 </template>
 
 <script>
 export default {
-  components: {},
-  async asyncData({ $content }) {
-    const doc = await $content("articles/hiatus").fetch();
-    return { doc };
-  },
   mounted() {
     this.$nextTick(() => {
       this.$nuxt.$loading.start();
