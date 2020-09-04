@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="mdpage">
   <nuxt-content :document="mdContent" />
 </div>
 </template>
@@ -13,7 +13,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>
