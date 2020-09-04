@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="blogpost">
     <nuxt-content :document="article" />
   </div>
 </template>
