@@ -3,8 +3,10 @@
     <div class="container journal">
       <ul>
         <li v-for="article of articles" :key="article.slug">
-          <NuxtLink class="journal-post" :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-            <img :src="article.img" />
+          <NuxtLink
+            class="journal-post"
+            :to="{ name: 'blog-slug', params: { slug: article.slug } }"
+          >
             <div>
               <h2 class="journal-title">{{ article.title }}</h2>
               <p class="journal-excerpt">{{ article.description }}</p>
@@ -17,22 +19,25 @@
 </template>
 
 <script>
-  export default {
-    async asyncData({ $content, params }) {
-      const articles = await $content('articles', params.slug)
-        .sortBy('createdAt', 'asc')
-        .fetch()
+export default {
+  async asyncData({ $content, params }) {
+    const articles = await $content("articles", params.slug)
+      .sortBy("createdAt", "asc")
+      .fetch();
 
-      return {
-        articles
-      }
-    }
-  }
+    return {
+      articles,
+    };
+  },
+};
 </script>
 
 <style scoped>
+ul {
+  width: 100%;
+}
 .container.journal {
-  max-width: 720px;
+  width: 1000px;
 }
 .journal-hero {
   padding: 1rem 0;
@@ -70,7 +75,7 @@
   color: black;
 }
 .journal-excerpt {
-  color: var(--color-contrast-1);
+  color: black;
 }
 @media (min-width: 560px) {
   .journal-post {

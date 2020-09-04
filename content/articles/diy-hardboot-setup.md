@@ -1,6 +1,11 @@
 ---
 title: "DIY Hardboot Setup"
 date: "2020-02-03"
+description: "Home-made bindings, boot mods and adaptors"
+img: "https://i.imgur.com/jOk2fJt.jpg"
+tags:
+  - skiing
+  - projects
 ---
 
 Last winter I was given a board to learn on from the shop, and picked up snowboarding riding nights at Grouse. By the end of season I was pretty hooked, and while looking at boards came across a steal on a G3 Scapegoat at their factory sale, where I also picked up a pair of skins as well. One of my good friends already hardboots, and personally having an ill purchased pair of too soft to ski skimo boots at home, I figured why not give hardbooting a go. Being an engineering student and just generally taking on personal projects that I don't have the time for, I thought why not just make them myself and save the $300 on Spark's (plus, since I'm graduating soon, its a nice project to add to the personal portfolio). The next few months had me patiently scouring marketplace and splitboard.com where the necessary items slowly fell into place. A set of pucks & hardware, a set of old voile plates & pins, a pair of burton raceplates, and a set of 1st gen dynafit TLT radicals. Eventually, I had all the items I needed. I sourced some 1/4" aluminum plates from scrap at work and made a template on CAD. Next was ordering the appropriate sized SS screws from the hardware store. Finally, it was time to start the fun part.

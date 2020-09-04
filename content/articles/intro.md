@@ -1,9 +1,6 @@
 ---
 title: "Intro"
 date: "2017-08-21"
-tags:
-  - skiing
-  - test
 ---
 
 #### My first post...
