@@ -40,7 +40,7 @@
           </div>
         </div>
         <NuxtLink class="navbar-item" to="/contact">Contact</NuxtLink>
-        <a class="navbar-item" href="/resume.pdf" target="_blank">CV</a>
+        <a class="navbar-item" href="/download/will-zittlau-cv.pdf" target="_blank">CV</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
     </div>
