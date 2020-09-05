@@ -27,6 +27,7 @@
       <br />
       <nuxt-content :document="article" />
     </div>
+  <PrevNext :prev="prev" :next="next" />
   </div>
 </template>
 
@@ -41,7 +42,12 @@ export default {
   async asyncData({ $content, error, params }) {
     try {
       const article = await $content("articles", params.slug).fetch();
-      return { article };
+      const [prev, next] = await $content("articles")
+        .only(["title", "slug"])
+        .sortBy("createdAt", "asc")
+        .surround(params.slug)
+        .fetch();
+      return { article, prev, next };
     } catch (err) {
       error({
         statusCode: 404,
