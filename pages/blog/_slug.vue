@@ -1,21 +1,87 @@
 <template>
-  <div class="blogpost">
-    <nuxt-content :document="article" />
+  <div>
+    <div class="header-block">
+      <div class="project-header">
+        <h1 class="project-title">{{article.title}}</h1>
+      </div>
+      <div class="project-info">
+        <div class="update-container">
+          <span class="label">Last updated:</span>
+          {{ formatDate(article.updatedAt) }}
+        </div>
+        <div class="time-container">
+          <span class="label">Time:</span>
+          {{article.readingTime}}
+        </div>
+        <div class="tags-container">
+          <div class="categories">
+            <span class="label">Tags:</span>
+            <span class="category" v-for="tag of article.tags" :key="tag.id">
+              <NuxtLink :to="'/tags/' + tag">{{ tag }}&nbsp;</NuxtLink>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blogpost">
+      <br />
+      <nuxt-content :document="article" />
+    </div>
   </div>
 </template>
 
 <script>
-  export default {
-    async asyncData({ $content, error, params }) {
-        try {
-      const article = await $content('articles', params.slug).fetch()
-      return { article }
-} catch (err) {
+export default {
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(date).toLocaleDateString("en", options);
+    },
+  },
+  async asyncData({ $content, error, params }) {
+    try {
+      const article = await $content("articles", params.slug).fetch();
+      return { article };
+    } catch (err) {
       error({
         statusCode: 404,
         message: "Page could not be found",
       });
     }
-  }
-  }
+  },
+};
 </script>
+
+<style scoped>
+.label {
+  margin: 0px;
+}
+.category a {
+  color: rgb(75, 75, 75);
+}
+.project-header {
+  padding: 10vh 0 2rem 0;
+}
+.project-title {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+.project-info {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+}
+.project-info > div {
+  margin-right: 4rem;
+}
+.project-info > div:last-of-type {
+  margin: 0;
+}
+.category:after {
+  content: ", ";
+}
+.category:last-of-type:after {
+  content: "";
+}
+</style>
