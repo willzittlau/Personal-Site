@@ -10,6 +10,10 @@
             <div>
               <h2 class="journal-title">{{ article.title }}</h2>
               <p class="journal-excerpt">{{ article.description }}</p>
+              <span class="journal-excerpt">
+                {{ formatDate(article.createdAt) }} &bull;
+                {{ article.readingTime }}
+              </span>
             </div>
           </NuxtLink>
         </li>
@@ -20,11 +24,16 @@
 
 <script>
 export default {
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(date).toLocaleDateString("en", options);
+    },
+  },
   async asyncData({ $content, params }) {
     const articles = await $content("articles", params.slug)
-      .sortBy("createdAt", "asc")
+      .sortBy("createdAt", "desc")
       .fetch();
-
     return {
       articles,
     };

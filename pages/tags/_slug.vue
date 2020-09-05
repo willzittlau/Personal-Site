@@ -2,11 +2,15 @@
   <div class="container journal">
     <h1>Tags: {{ $route.params.slug }}</h1>
     <ul>
-      <li v-for="post of posts" :key="post.slug">
-        <NuxtLink class="journal-post" :to="{ name: 'blog-slug', params: { slug: post.slug } }">
+      <li v-for="article of articles" :key="article.slug">
+        <NuxtLink class="journal-post" :to="{ name: 'blog-slug', params: { slug: article.slug } }">
           <div>
-            <h2 class="journal-title">{{ post.title }}</h2>
-            <p class="journal-excerpt">{{ post.description }}</p>
+            <h2 class="journal-title">{{ article.title }}</h2>
+            <p class="journal-excerpt">{{ article.description }}</p>
+            <span class="journal-excerpt">
+              {{ formatDate(article.createdAt) }} &bull;
+              {{ article.readingTime }}
+            </span>
           </div>
         </NuxtLink>
       </li>
@@ -16,12 +20,18 @@
 
 <script>
 export default {
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(date).toLocaleDateString("en", options);
+    },
+  },
   async asyncData({ params, error, $content }) {
     try {
-      const posts = await $content("articles", { deep: true })
+      const articles = await $content("articles", { deep: true })
         .where({ tags: { $contains: params.slug } })
         .fetch();
-      return { posts };
+      return { articles };
     } catch (err) {
       error({
         statusCode: 404,
