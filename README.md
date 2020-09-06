@@ -1,6 +1,6 @@
 # Personal site for blog/portfolio
 
-Built with Nuxt, Bulma, and Netlify. Work in Progress.
+Built with Nuxt, Bulma, and Netlify. View here at [willzittlau.com](https://willzittlau.com)
 
 ## Build Setup
 
