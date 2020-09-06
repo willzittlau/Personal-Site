@@ -2,7 +2,8 @@
 title: "DIY Hardboot Setup"
 date: "2020-02-03"
 description: "Home-made bindings, boot mods and adaptors"
-img: "https://i.imgur.com/jOk2fJt.jpg"
+featured: "yes"
+img: "https://picsum.photos/800/1200"
 tags:
   - skiing
   - projects

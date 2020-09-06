@@ -4,8 +4,8 @@
     <div class="column is-narrow">
       <button class="button is-outlined" v-show="visible">
         <a @click="scrollTop" v-show="visible">
-            <fa :icon="['fas', 'chevron-up']" style="font-size: 20px" /> Top
-            </a>
+          <fa :icon="['fas', 'chevron-up']" style="font-size: 20px" />Top
+        </a>
       </button>
     </div>
     <div class="column is-narrow">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>

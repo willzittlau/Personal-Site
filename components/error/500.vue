@@ -1,10 +1,12 @@
 <template>
   <div class="container">
-    <br><br>
+    <br />
+    <br />
     <h1>500 - Internal Error</h1>
     <p>You managed to break a static site!</p>
     <p>
-      Return <span>
+      Return
+      <span>
         <div class="buttons are-small" style="display: inline;">
           <button class="button is-outlined">
             <NuxtLink to="/">Home</NuxtLink>

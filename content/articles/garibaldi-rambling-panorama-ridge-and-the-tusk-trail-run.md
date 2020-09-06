@@ -1,6 +1,8 @@
 ---
 title: "Garibaldi rambling - Panorama ridge and the Tusk trail run"
 date: "2019-11-07"
+featured: "yes"
+img: "https://picsum.photos/1500/800"
 ---
 
 Two weeks after JDF I found myself entering another weekend without any plans. A co-worker had just hiked up in the meadows and recommended going up there as all the wildflowers had just started blooming. I had really been wanting to spend a day up there in the summer since doing the Neve, so I didn't need much more convincing. I quickly packed and shoved the last of my gels from the last two long runs into my vest and set my alarm.

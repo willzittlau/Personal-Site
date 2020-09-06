@@ -1,6 +1,8 @@
 ---
 title: "Half Marathon"
 date: "2017-09-12"
+featured: "yes"
+img: "https://picsum.photos/1400/800"
 ---
 
 Yesterday after work I ran my first Half Marathon. I picked up running early last spring and have slowly added on the distance, averaging a 10km trail run + a shorter distance hill climb every week. Until yesterday, I hadn't run further than 15km in one take.  The decision to run this distance was partially because Strava was hosting the Great 13.1 Record attempt (Most amount of 13.1 miles aka half marathon distances ran in a day by the global community), as well as that I figured it would be a good goal to judge my progress by. I'm fortunate enough to live right behind Rose Valley Regional Park, so the loop was to be around the reservoir and then another half loop up and back via the road. I got off work at 5 and rushed back home, not having much spare time with the sunset just before 8PM. Here I met Quin and Carter who were also going to attempt the distance with me. We'd packed our bags the night before, and I'd loaded up my Sense vest with 1.5L of water along with a multitude of gels and snacks, a first aid kit, a windbreaker, and a headlamp.

@@ -45,14 +45,6 @@ export default {
 ul {
   width: 100%;
 }
-.container.journal {
-  width: 1000px;
-}
-.journal-hero {
-  padding: 1rem 0;
-  text-align: center;
-  color: grey;
-}
 .journal-header {
   font-size: 3rem;
   font-weight: 700;
@@ -72,7 +64,7 @@ ul {
   background-color: #f8f8f8;
 }
 .journal-post:hover > * {
-  transform: translateX(4rem);
+  transform: translateX(3rem);
 }
 .journal-post h1,
 .journal-post h2 {
@@ -81,7 +73,8 @@ ul {
 }
 .journal-title {
   font-size: 2rem;
-  color: black;
+  color: rgb(50, 50, 50);
+  font-weight: 600;
 }
 .journal-excerpt {
   color: black;
@@ -90,10 +83,16 @@ ul {
   .journal-post {
     padding: 1rem 0;
   }
+  .container.journal {
+    min-width: 100vw;
+  }
 }
 @media (min-width: 860px) {
   .journal-post {
     padding: 1rem 0;
+  }
+  .container.journal {
+    min-width: 100vw;
   }
 }
 </style>

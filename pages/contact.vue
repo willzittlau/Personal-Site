@@ -1,5 +1,5 @@
 <template>
-  <div class="columns is-mobile">
+  <div class="columns">
     <div class="column"></div>
     <div class="column is-half">
       <form name="contact" method="POST" data-netlify="true">

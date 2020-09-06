@@ -48,8 +48,11 @@ export default {
   text-align: center;
   padding: 10px;
 }
-a{
-  color:black;
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
 }
 h2 {
   font-weight: bold;

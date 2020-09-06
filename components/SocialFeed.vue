@@ -38,7 +38,7 @@ h1 {
   margin-top: 4rem;
   margin-bottom: 0.5rem;
 }
-.columns{
+.columns {
   margin-bottom: 0.25rem;
 }
 </style>

@@ -5,15 +5,11 @@
     <div class="projects">
       <div class="project" v-for="article of articles" :key="article.slug">
         <NuxtLink class="journal-post" :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-            <img
-                :src="article.img"
-                :alt="article.alt"
-                class="thumbnail"
-            />
+          <img :src="article.img" :alt="article.alt" class="thumbnail" />
           <h3 class="project-title">{{ article.title }}</h3>
           <div class="categories">
-                <span class="category" v-for="tag of article.tags" :key="tag.id"> {{tag}}</span>
-            </div>
+            <span class="category" v-for="tag of article.tags" :key="tag.id">{{tag}}</span>
+          </div>
         </NuxtLink>
       </div>
     </div>
@@ -71,7 +67,7 @@ h1 {
   font-size: 1.5rem !important;
   font-weight: 500;
   color: rgb(85, 85, 85);
-  margin: 1rem 0 1rem 0;
+  margin: 1rem 0 0.5rem 0;
 }
 .categories {
   font-size: 0.8rem;

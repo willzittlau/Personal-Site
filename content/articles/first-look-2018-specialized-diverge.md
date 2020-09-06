@@ -1,8 +1,9 @@
 ---
 title: "First Look: 2018 Specialized Diverge"
-date: "2017-09-17"
 description: "Impressions and thoughts on Speacialized's new gravel whip"
-img: "https://i.imgur.com/jOk2fJt.jpg"
+img: "https://picsum.photos/1600/800"
+alt: "testing"
+featured: "yes"
 tags:
   - biking
   - gear

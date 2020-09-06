@@ -1,13 +1,13 @@
 <template>
-<!-- Bulma navbar -->
+  <!-- Bulma navbar -->
   <nav class="navbar is-white">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <!--Logo / home ref -->
     <div class="navbar-brand">
-      <a class="navbar-item" id="logo" href="/">
+      <NuxtLink class="navbar-item" id="logo" to="/">
         <img src="~assets/400x400-logo.png" />
-      </a>
-    <!--Hamburger for mobile, vue binding for onclick-->
+      </NuxtLink>
+      <!--Hamburger for mobile, vue binding for onclick-->
       <a
         role="button"
         class="navbar-burger"
@@ -24,23 +24,23 @@
     <!-- Other links -->
     <div class="navbar-menu" v-bind:class="{'is-active': isOpen}">
       <div class="navbar-start">
-      <Search class="navbar-item"/>
-    </div>
+        <Search class="navbar-item" />
+      </div>
       <div class="navbar-end">
-        <NuxtLink class="navbar-item" to="/about">About</NuxtLink>
-        <NuxtLink class="navbar-item" to="/tags/projects">Projects</NuxtLink>
+        <NuxtLink class="navbar-item underline" to="/about">About</NuxtLink>
+        <NuxtLink class="navbar-item underline" to="/tags/projects">Projects</NuxtLink>
         <div class="navbar-item has-dropdown is-hoverable">
-          <NuxtLink class="navbar-link" to="/blog">Blog</NuxtLink>
+          <NuxtLink class="navbar-link underline" to="/blog">Blog</NuxtLink>
           <div class="navbar-dropdown is-boxed is-right">
-            <NuxtLink class="navbar-item" to="/tags/skiing">Skiing</NuxtLink>
-            <NuxtLink class="navbar-item" to="/tags/biking">Biking</NuxtLink>
-            <NuxtLink class="navbar-item" to="/tags/running">Running</NuxtLink>
-            <NuxtLink class="navbar-item" to="/tags/climbing">Climbing</NuxtLink>
-            <NuxtLink class="navbar-item" to="/tags/hiking">Hiking</NuxtLink>
+            <NuxtLink class="navbar-item underline" to="/tags/skiing">Skiing</NuxtLink>
+            <NuxtLink class="navbar-item underline" to="/tags/biking">Biking</NuxtLink>
+            <NuxtLink class="navbar-item underline" to="/tags/running">Running</NuxtLink>
+            <NuxtLink class="navbar-item underline" to="/tags/climbing">Climbing</NuxtLink>
+            <NuxtLink class="navbar-item underline" to="/tags/hiking">Hiking</NuxtLink>
           </div>
         </div>
-        <NuxtLink class="navbar-item" to="/contact">Contact</NuxtLink>
-        <a class="navbar-item" href="/download/will-zittlau-cv.pdf" target="_blank">CV</a>
+        <NuxtLink class="navbar-item underline" to="/contact">Contact</NuxtLink>
+        <a class="navbar-item underline" href="/download/will-zittlau-cv.pdf" target="_blank">CV</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
     </div>

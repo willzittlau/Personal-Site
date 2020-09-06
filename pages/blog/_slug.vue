@@ -24,10 +24,9 @@
       </div>
     </div>
     <div class="blogpost">
-      <br />
       <nuxt-content :document="article" />
     </div>
-  <PrevNext :prev="prev" :next="next" />
+    <PrevNext :prev="prev" :next="next" />
   </div>
 </template>
 
@@ -44,7 +43,7 @@ export default {
       const article = await $content("articles", params.slug).fetch();
       const [prev, next] = await $content("articles")
         .only(["title", "slug"])
-        .sortBy("createdAt", "asc")
+        .sortBy("createdAt", "desc")
         .surround(params.slug)
         .fetch();
       return { article, prev, next };
@@ -59,6 +58,14 @@ export default {
 </script>
 
 <style scoped>
+.header-block {
+  margin: 0px 10vw 0px 10vw;
+}
+.blogpost {
+  margin: 3vw 10vw 0px 10vw;
+  min-height: 100vh;
+  display: flex;
+}
 .label {
   margin: 0px;
 }
@@ -70,8 +77,8 @@ export default {
 }
 .project-title {
   font-size: 3rem;
-  margin: 0 0 1rem 0;
   padding: 0;
+  font-weight: 650;
 }
 .project-info {
   display: flex;

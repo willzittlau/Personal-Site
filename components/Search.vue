@@ -8,7 +8,7 @@
         autocomplete="off"
         placeholder="Search Articles"
       />
-      <ul v-if="articles.length">
+      <ul class="focuslist" v-if="articles.length">
         <li v-for="article of articles" :key="article.slug">
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">{{ article.title }}</NuxtLink>
         </li>
