@@ -1,5 +1,5 @@
 <template>
-  <div class="columns is-mobile">
+  <div class="columns">
     <div class="column"></div>
     <div class="column is-four-fifths">
       <h1>Social Feed</h1>
@@ -33,6 +33,12 @@ export default {
 <style scoped>
 h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+}
+.columns{
+  margin-bottom: 0.25rem;
 }
 </style>
