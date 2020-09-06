@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+            <input type="text" name="name" placeholder="Enter your name" />
+            <input type="text" name="email" placeholder="Enter your email" />
+            <input type="text" name="subject" placeholder="Enter the subject" />
+            <textarea name="message" placeholder="Enter your message here..."></textarea>
+            <button type="submit">Submit</button>
+            <button>Cancel</button>
+            </form>
+    {{ APP }}
+  </body>
+</html>

@@ -2,7 +2,8 @@
   <div class="columns">
     <div class="column"></div>
     <div class="column is-half">
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
         <div class="field">
           <label class="label">Name</label>
           <div class="control">
