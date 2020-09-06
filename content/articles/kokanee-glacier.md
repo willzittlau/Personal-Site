@@ -1,15 +1,22 @@
 ---
 title: "Kokanee Glacier Hike"
-date: "2019-03-31"
+createdAt: "2019-03-31"
+description: "Backpacking in paradise"
+img: "https://i.imgur.com/xgRZ2dRh.jpg"
+alt: "Kokanee Glacier"
+featured: "yes"
+tags:
+  - hiking
+  - camping
+  - kokanee glacier
+  - kootenays
 ---
+
+![Imgur](https://i.imgur.com/bd0T8Jgh.jpg)
 
 This was one of my unfinished posts way back from two summers ago! I finally just got around to finish writing about it. With that being said, lets get into it.
 
-![](images/received_10159017241135573.jpeg-min.jpg)
-
-a Happy Ashleigh
-
-Late July, 2017
+<b>Late July, 2017</b>
 
 This time around the plan was to take my girlfriend on her first overnight backpacking trip. The objective was set at Kokanee Glacier Provincial park, at the the Kaslo Creek campground. Highlights include a bug-safe cooking hut, lakeside views from the tent, and the ever so popular Kokanee glacier hut just a short walk away housing the park ranger. All of these first-timer friendly amenities in the backcountry contributed to the choice, combined with a strong recommendation from friends who had gone the summer before. As with the theme of my summer, we left after I finished work around 6PM, squeezing the most out of my 2 day work weekend.
 
@@ -25,28 +32,18 @@ Eventually we made it to the proper entrance, and were greeted by multiple Kokan
 
 The trail starts off really mellow on some double track slowly heading upwards, but quickly steepens. I wouldn't call it a steep hike, but it's sustained right up to the first lake. Right away Ashleigh was having trouble with her boots, and little did we know how bad it was going to get. Since this was going to be her first overnight in the backcountry she had gone out and bought some new gear the day before, and had unknowingly broken one of the fundamental rules: Don't get new footwear right before a long hike. I didn't realize she had gone out and bought new boots, and was expecting her to just use her GTX trail running shoes for the hike. Those shiny new boots were already doing a number on her feet. By 2km in she had already had blisters, which is a small feat in itself. We stopped to treat and tape up, but they continued to get worse and worse. By 5km she was cursing with every step but still wanted to keep pushing on through the gorgeous landscape. 
 
-![](images/received_10159017240935573.jpeg-min.jpg)
-
-One of the multiple waterfalls we passed on the hike up
+![Imgur](https://i.imgur.com/LzImAevh.jpg)
 
 Finally, the trail started trending downwards towards a very cold looking Kaslo lake (still filled with mini icebergs, in late July) where we stopped for lunch. Lunch seemed to lift Ashleigh spirits and we took off at a slightly quicker pace after once again treating her heels. Soon enough we walked the length of the lake via a loose trail across a boulder and scree field (which Ashleigh wasn't a fan of) down into a flat meadow.
 
-![](images/img_20170724_221924_950-min.jpg)
-
-Kaslo Lake
+![Imgur](https://i.imgur.com/2joLKBNh.jpg)
 
 By now Ashleigh really wasn't having a good time but I convinced her to push on. You climb a little bit and then head through the forest past two more small lakes until you finally arrive at the crossroads for the campground, turn left and you're there! Ashleigh hobbled into the cooking shelter and gingerly took off her boots while I hiked down to setup camp. For the rest of the evening we just hung out in the shelter relaxing, and I managed to get through the majority of Kilian Jornet's "Run or Die" (a really great book by the way). Dinner that night was as gourmet as it gets (not) - Mac N Cheese. It was a good meal to test out the simmer setting on my new stove, and I was pleased to find no burnt on mushy noodles after cooking. We left our bug free haven in the cooking cabin and climbed into the tent, settling into a peaceful sleep.
 
-![](images/received_10159017257105573.jpeg-min.jpg)
-
-Me packing up our cook kit
+![Imgur](https://i.imgur.com/dJ64tlIh.jpg)
 
 The next morning we woke up after a great nights sleep and made a quick breakfast. Weekend trips are always a little sad because they end way too soon, but that's the realities of two day weekends I guess. Ashleigh was expecting to go back to war with her feet that morning, and we did the best we could to apply tape and moleskin before heading out. The first km of trail heading back still had snow, and both our boots were quickly soaked. By the time we were nearing the scree field from the day before, Ashleigh was in so much pain that I finally offered to trade boots. I'm a size 42 and she's a 40 but I managed to squeeze my feet. I've worn tight climbing shoes, but these were on another level.
 
-![received_10159017240920573.jpeg-min](images/received_10159017240920573.jpeg-min.jpg)  
-
-Ashleigh looking through the valley we crossed the day prior
-
 Through the next couple kms, we toughed it out until past the lake on the long descent where my toes felt like they were going to explode from all the pressure on them from walking downhill in the too small boots. Instead of endure the torture of putting them back on, Ashleigh opted to walk the last descent barefoot, which earned some confused looks from hikers heading up the trail. Not too long later, we  were back at the car. I don't think I've seen Ashleigh so excited as she grabbed her flip flops from the car, absolutely beaming. I drove us home on a rather uneventful journey, reminiscing about the trip, and we were back in Kelowna before dark. 
 
-\[caption id="attachment\_1188" align="alignnone" width="1022"\]![received_10159017240915573.jpeg-min](images/received_10159017240915573.jpeg-min.jpg) Last few switchbacks\[/caption\]
+![Imgur](https://i.imgur.com/rc7FRj0h.jpg)

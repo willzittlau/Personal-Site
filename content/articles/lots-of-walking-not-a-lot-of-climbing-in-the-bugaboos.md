@@ -1,9 +1,18 @@
 ---
 title: "Lots of walking, not a lot of climbing in the Bugaboos"
-date: "2020-02-01"
+createdAt: "2020-02-01"
+description: "Late season trip to the oceans of granite"
+img: ""
+alt: "Bugaboos"
+featured: "no"
+tags:
+  - hiking
+  - climbing
+  - bugaboos
+  - backcountry
 ---
 
-A year and a half later, but better late than never! On the weekend before school started up in September 2018, I managed to squeeze in one last summer trip with Levi, Colette, Inuk, Adam and Remi. The following is transcribed from a journal entry I wrote while on the trip.
+**A year and a half later, but better late than never! On the weekend before school started up in September 2018, I managed to squeeze in one last summer trip with Levi, Colette, Inuk, Adam and Remi. The following is transcribed from a journal entry I wrote while on the trip.**
 
 **Day 1**: I slept in the back of my truck on Inuk's driveway in Revelstoke for a 5AM wakeup. Everyone rendezvoused here and, after discussing gear, we were off by 7am. A quick stop in Golden and we were on our way up the FSR. I'm sad to report that I must've murdered at least 100 dragonflies, I've never seen so many in my life! After chicken wiring the vehicles, we headed out at around 1PM. The approach is only ~5km, but also has ~1km of vert and our 65lb packs beat us down. Colette was carrying more than half her body weight! The highlight was coming out of the lower talus fields into the upper meadows, offering stunning views of the spires and sprawling glaciers. After setting up camp at boulder campground, we headed up to Applebee to take photos.
 

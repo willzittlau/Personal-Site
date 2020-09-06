@@ -1,8 +1,16 @@
 ---
-title: "Garibaldi rambling - Panorama ridge and the Tusk trail run"
-date: "2019-11-07"
-featured: "yes"
-img: "https://picsum.photos/1500/800"
+title: "Garibaldi rambling"
+createdAt: "2019-11-07"
+description: "Exploring Panorama ridge and the Tusk in one link-up"
+img: ""
+alt: "Garibaldi Park"
+featured: "no"
+tags:
+  - running
+  - garibaldi
+  - squamish
+  - panorama ridge
+  - backcountry
 ---
 
 Two weeks after JDF I found myself entering another weekend without any plans. A co-worker had just hiked up in the meadows and recommended going up there as all the wildflowers had just started blooming. I had really been wanting to spend a day up there in the summer since doing the Neve, so I didn't need much more convincing. I quickly packed and shoved the last of my gels from the last two long runs into my vest and set my alarm.
@@ -21,6 +29,7 @@ Still with a bit of energy to spare, I veered left down the garibaldi lake trail
 
 In total the day was about 35Km with somewhere between 2500-3000m of vert, my watch messed up the baro reading when I went for a swim with it so unfortunately it read 6000+. Below is a quick edit I made of the day + a link to the strava run.
 
-https://vimeo.com/368664376
+<center><iframe src="https://player.vimeo.com/video/368664376" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/368664376">Panorama Ridge and Black Tusk run</a> from <a href="https://vimeo.com/user80709827">Will Zittlau</a> on <a href="https://vimeo.com">Vimeo</a>.</p></center>
 
-https://www.strava.com/activities/2588310700
+Link to GPS recording: https://www.strava.com/activities/2588310700

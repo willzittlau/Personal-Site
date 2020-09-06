@@ -1,9 +1,18 @@
 ---
 title: "Half Marathon"
-date: "2017-09-12"
-featured: "yes"
-img: "https://picsum.photos/1400/800"
+createdAt: "2017-09-12"
+description: "My first long run"
+img: ""
+alt: "Half Marathon"
+featured: "no"
+tags:
+  - running
+  - okanagan
+  - half
+  - marathon
 ---
+
+![Imgur](https://i.imgur.com/8AGxLRhh.jpg)
 
 Yesterday after work I ran my first Half Marathon. I picked up running early last spring and have slowly added on the distance, averaging a 10km trail run + a shorter distance hill climb every week. Until yesterday, I hadn't run further than 15km in one take.  The decision to run this distance was partially because Strava was hosting the Great 13.1 Record attempt (Most amount of 13.1 miles aka half marathon distances ran in a day by the global community), as well as that I figured it would be a good goal to judge my progress by. I'm fortunate enough to live right behind Rose Valley Regional Park, so the loop was to be around the reservoir and then another half loop up and back via the road. I got off work at 5 and rushed back home, not having much spare time with the sunset just before 8PM. Here I met Quin and Carter who were also going to attempt the distance with me. We'd packed our bags the night before, and I'd loaded up my Sense vest with 1.5L of water along with a multitude of gels and snacks, a first aid kit, a windbreaker, and a headlamp.
 
@@ -13,4 +22,4 @@ This is where Carter had to leave just past the 2/3 mark due to cramping issues
 
 Sprinting down to my doorstep, muscles screaming, I ended Strava and impatiently waited to see the result. 21.3km, 2:48 total trip time, with a moving time of 2 hours, 31 minutes, 10 seconds, 975m of total elevation gain, and an average moving pace of 7:05/km. To be honest it irks me a bit that I didn't quite break the 1000m threshold, but still I'm pretty damn happy with how I felt and the time considering it was after a full work day and close to 1km of vertical climbing! I really recommend going out and trying to run this distance if it's been a goal of yours, as you might find it's a lot more obtainable than you think!
 
-\[caption id="attachment\_815" align="alignleft" width="750"\]![21733703_10159244418500573_487871692_o (2)](images/21733703_10159244418500573_487871692_o-2.jpg) The route\[/caption\]
+![Imgur](https://i.imgur.com/lI7Ogdeh.jpg)

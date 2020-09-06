@@ -1,6 +1,16 @@
 ---
 title: "Juan de Fuca Trail in a day"
-date: "2019-09-28"
+createdAt: "2019-09-28"
+description: "47km of mud, sweat, and good times"
+img: ""
+alt: "Juan De Fuca Marine Trail"
+featured: "no"
+tags:
+  - running
+  - ultra
+  - marathon
+  - juan de fuca
+  - vancouver island
 ---
 
 Earlier this summer my friend James invited me to join him and Francis on the Juan de Fuca trail for a one-day push. The Juan de Fuca Marine trail is a 47km trail on the west coast of Vancouver Island with around 1800m of elevation gain, starting (or finishing, depending on direction) just 10km below the terminus of the ultra famous West Coast trail. It takes you through beautiful old growth forests, with spectacular views of the ocean never more than a few kilometres apart. This run had been on my mind after another one of my friends had ran it two summers before, and is actually one of the reasons I started training for ultras. I would say the biggest crux of the trip is trying to figure out rides as it’s a point to point run in a relatively remote area, so with the offer on the table for James’ brother to shuttle us it was hard to say no. And so, on another Friday afternoon after work I found myself on the ferry headed to Victoria for our rendezvous.
@@ -13,8 +23,9 @@ With the worst of it behind us the next few beach crossings flew by. However, by
 
 If you have solid hiking / running experience and you’re fit, I would highly recommend doing this trail in a day. One important thing to note is that this trail is very dependant on the beach crossings, and some areas are inaccessible during high tide. We managed to land on a day where the tides coincided roughly with our rate of travel, so we never had issue. It took us just under 10 hours with a ratio of probably 70% hiking 30% running and never felt too hard, always enjoyable. It makes the muddy sections of trail not seem so long and the ocean vistas are an endless source of motivation. Get after it! Below is an edit I made of our day. I'm really happy with how well I managed considering I only had 12 days to recover in between my first and second ultra!
 
-https://opsrra.files.wordpress.com/2018/05/a4989-jdf\_map.jpg
+![Imgur](https://i.imgur.com/4XFZpEYh.jpg)
 
-https://vimeo.com/354329672
+<center><iframe src="https://player.vimeo.com/video/354329672" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/354329672">Juan de Fuca Run</a> from <a href="https://vimeo.com/user80709827">Will Zittlau</a> on <a href="https://vimeo.com">Vimeo</a>.</p></center>
 
-https://www.strava.com/activities/2549388425
+Link to activity: https://www.strava.com/activities/2549388425
