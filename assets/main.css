@@ -27,11 +27,12 @@
   height: 20px;
   background-size: 20px 20px;
 }
-.nuxt-content-container {
+.nuxt-content-container, .nuxt-content p{
   overflow-wrap: break-word;
   max-width: 80vw;
 }
 .nuxt-content h1 {
+  text-align: center;
   font-weight: bold;
   font-size: 34px;
 }
