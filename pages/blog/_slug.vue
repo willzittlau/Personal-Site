@@ -26,6 +26,15 @@
     <div class="blogpost">
       <nuxt-content :document="article" />
     </div>
+    <div class="columns">
+      <div class="column"></div>
+      <div class="column is-four-fifths">
+        <div class="comments">
+          <Disqus />
+        </div>
+      </div>
+      <div class="column"></div>
+    </div>
     <PrevNext :prev="prev" :next="next" />
   </div>
 </template>
