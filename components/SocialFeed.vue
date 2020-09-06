@@ -4,7 +4,7 @@
     <div class="column is-four-fifths">
       <h1>Social Feed</h1>
       <iframe
-        src="//lightwidget.com/widgets/be81feae99b65198bc97a51d2a396594.html"
+        src="https://cdn.lightwidget.com/widgets/be81feae99b65198bc97a51d2a396594.html"
         scrolling="no"
         allowtransparency="true"
         class="lightwidget-widget"
