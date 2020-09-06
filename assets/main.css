@@ -20,6 +20,13 @@
   text-align: center;
 }
 /* MD post styling*/
+.icon.icon-link {
+  background-image: url('~assets/icon-hashtag.svg');
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+}
 .nuxt-content-container {
   overflow-wrap: break-word;
   max-width: 80vw;

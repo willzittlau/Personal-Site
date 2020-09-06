@@ -30,6 +30,7 @@ export default {
     try {
       const articles = await $content("articles", { deep: true })
         .where({ tags: { $contains: params.slug } })
+        .sortBy("createdAt", "desc")
         .fetch();
       return { articles };
     } catch (err) {
