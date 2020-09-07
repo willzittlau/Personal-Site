@@ -1,0 +1,5 @@
+# Robots.txt for https://www.willzittlau.com/
+
+User-agent: * Disallow: /download/will-zittlau-cv.pdf
+
+Sitemap: https://www.willzittlau.com/sitemap.xml
