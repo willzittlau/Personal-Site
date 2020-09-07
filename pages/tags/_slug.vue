@@ -51,17 +51,6 @@ ul {
   max-width: 100vw;
   min-width: 75vw;
 }
-.journal-hero {
-  padding: 1rem 0;
-  text-align: center;
-  color: grey;
-}
-.journal-header {
-  font-size: 3rem;
-  font-weight: 700;
-  padding: 0;
-  margin: 0;
-}
 .journal-post {
   display: block;
   padding: 1rem 0;

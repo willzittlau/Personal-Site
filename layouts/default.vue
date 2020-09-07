@@ -34,7 +34,6 @@ html {
   min-height: 100vh;
   flex-direction: column;
 }
-
 #wrapper {
   flex: 1;
 }

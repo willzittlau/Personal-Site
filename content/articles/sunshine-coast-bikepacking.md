@@ -1,7 +1,18 @@
 ---
 title: "Sunshine Coast bikepacking"
-date: "2020-02-02"
+createdAt: "2020-02-02"
+description: "The ultimate weekend warrior coastal bike route"
+img: "https://i.imgur.com/8aqdbP5h.jpg"
+alt: "Bikepacking rigs"
+featured: "no"
+tags:
+  - biking
+  - bikepacking
+  - sunshine coast
+  - vancouver island
 ---
+
+![Imgur](https://i.imgur.com/8aqdbP5h.jpg)
 
 Getting used to being the typical 9-5 weekend warrior, it was time for another mid-summer two and a half day vacation. Alpine climbing plans were in the air with Nelson and Quin, but ultimately forecasted rain made us choose a last minute alternative: Bikepacking. And so, Thursday night had me frantically packing my bike for the next day. My phone also happened to die mid-week so it added another layer of complexity only being able to communicate from my laptop (sorry for the lack of photos from this trip, I personally took zero) Friday's work day passed quickly and it was time to head out. After navigating traffic home, I met up with Quin who had made the drive out from Kelowna at my place and we loaded the bikes into the truck. Originally the plan was to just bike from there but the timing of ferries wasn't going to work out so we shuttled downtown and went off from there. The jaunt down to Horseshoe Bay was uneventful albeit fast paced as we raced to catch the earlier sailing. Down at the ferry we met up with Nelson who had been a few minutes ahead of us, and boarded.
 

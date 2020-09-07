@@ -4,7 +4,7 @@ createdAt: "2019-03-31"
 description: "Backpacking in paradise"
 img: "https://i.imgur.com/xgRZ2dRh.jpg"
 alt: "Kokanee Glacier"
-featured: "yes"
+featured: "no"
 tags:
   - hiking
   - camping

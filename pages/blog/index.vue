@@ -45,12 +45,6 @@ export default {
 ul {
   width: 100%;
 }
-.journal-header {
-  font-size: 3rem;
-  font-weight: 700;
-  padding: 0;
-  margin: 0;
-}
 .journal-post {
   display: block;
   padding: 1rem 0;

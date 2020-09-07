@@ -4,22 +4,22 @@
       <div class="column is-one-quarter has-text-centered">
         <span>
           <a href="https://www.strava.com/athletes/8709142">
-            <fa :icon="['fab', 'strava']" style="font-size: 30px" />&nbsp;&nbsp;&nbsp;
+            <fa :icon="['fab', 'strava']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
           </a>
         </span>
         <span>
           <a href="https://www.instagram.com/willzittlau/">
-            <fa :icon="['fab', 'instagram']" style="font-size: 30px" />&nbsp;&nbsp;&nbsp;
+            <fa :icon="['fab', 'instagram']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
           </a>
         </span>
         <span>
           <a href="https://github.com/willzittlau">
-            <fa :icon="['fab', 'github']" style="font-size: 30px" />&nbsp;&nbsp;&nbsp;
+            <fa :icon="['fab', 'github']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
           </a>
         </span>
         <span>
           <a href="https://www.linkedin.com/in/will-zittlau/">
-            <fa :icon="['fab', 'linkedin']" style="font-size: 30px" />&nbsp;&nbsp;&nbsp;
+            <fa :icon="['fab', 'linkedin']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
           </a>
         </span>
       </div>
@@ -61,7 +61,7 @@ a {
 }
 footer {
   background: #eee;
-  padding: 15px 15px;
+  padding: 22px 15px;
   text-align: center;
   transition: 0.5s ease all;
 }

@@ -1,6 +1,15 @@
 ---
-title: "My first Ultra, MEC 50K at Big White"
-date: "2019-09-27"
+title: "My first Ultramarathon"
+createdAt: "2019-09-27"
+description: "MEC 50K at Big White Ski Resort"
+img: "https://i.imgur.com/0DQ9zD2h.jpg"
+alt: "The finish line at MEC's 50k race"
+featured: "no"
+tags:
+  - running
+  - big white
+  - ultra
+  - marathon
 ---
 
 Summer flew by, and now that I'm back in school I'll have more time to reflect on the last 8 months and hopefully write more of my thoughts down. 2019 was my first year of really running, keeping consistent with running multiple times a week. In February I signed up for my first 50K at Bigwhite, largely because of the low cost ($45, less than $1/km), and also because that's my home ski hill and running up there is gorgeous. I didn't really start training until well into the spring after ski season had winded down, but big pushes like the Neve had already given me a pretty solid base for vert and low effort endurance. By April I was ramping up to 40k/wk. I was stoked when Quin and Matt decided to join me with some later sign-ups too. One highlight in the weeks leading up to it was driving up to Squamish and joining in on the Coast Mountain Trail series orientation runs, incredibly well put together by-donation events and a great way to share some longer runs with new friends. I'll definitely have to get out to one of Gary's races in the next couple seasons. My peak training load was around 70km in a week with 3000m of vert about 3 weeks out from the race. Before I knew it, it was race weekend.
@@ -13,8 +22,8 @@ Since the course was run in three loops, with the last two sharing the descent, 
 
 Our final time was 8:11, a little slower than my original goal of 7 hours but still respectable considering course conditions and that there was 2200M of climbing! Overall it was an amazing experience and I recommend everyone should try and do something that seems out of reach; I still don’t consider myself a runner. After a shower and a couple hours of relaxation my real test of endurance came after the race when I was faced with a 4-hour drive back to Vancouver to make it in time for work on Monday morning! Thanks to Quin and Matt for sharing the day with me, and for MEC/Bigwhite for hosting such a rad event!
 
-![](images/received_905794293145998.jpg)
+![Imgur](https://i.imgur.com/0DQ9zD2h.jpg)
 
-![](images/received_1132066000309923.jpg)
+![Imgur](https://i.imgur.com/MB6KwB5h.jpg)
 
 Link to Strava activity: [https://www.strava.com/activities/2513372121](https://www.strava.com/activities/2513372121)

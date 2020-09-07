@@ -58,22 +58,18 @@ export default {
 };
 </script>
 
-
 <!-- Override Bulma defaults-->
 <style scoped>
 .navbar-burger span {
   width: 25px;
 }
-
 .navbar-burger {
   width: 100px;
   height: 100px;
 }
-
 .navbar-item img {
   max-height: 100px;
 }
-
 .navbar-item#logo:hover {
   background-color: white !important;
 }

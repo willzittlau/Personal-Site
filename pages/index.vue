@@ -54,9 +54,6 @@ h1 {
   grid-column: auto / span 2;
   text-align: center;
 }
-.project-link {
-  text-decoration: none;
-}
 .thumbnail {
   height: 560px;
   object-fit: cover;

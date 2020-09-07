@@ -9,7 +9,7 @@ tags:
   - hiking
   - climbing
   - bugaboos
-  - backcountry
+  - alpine
 ---
 
 **A year and a half later, but better late than never! On the weekend before school started up in September 2018, I managed to squeeze in one last summer trip with Levi, Colette, Inuk, Adam and Remi. The following is transcribed from a journal entry I wrote while on the trip.**

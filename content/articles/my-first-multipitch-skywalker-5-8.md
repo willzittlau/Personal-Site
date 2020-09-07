@@ -1,13 +1,21 @@
 ---
 title: "First Multipitch, Skywalker 5.8 in Squamish"
-date: "2017-09-01"
+createdAt: "2017-09-01"
+description: ""
+img: ""
+alt: "Skywalker in Squamish, BC"
+featured: "no"
+tags:
+  - climbing
+  - squamish
+  - skywalker
 ---
 
 One monday near the end of June after work one of my best mates Quin and I piled into the truck and hurriedly loaded our gear. We were making the most of our two days off  of work, trying to make the Stawamus Chief campsite which closes at 11PM. Getting off at six didn't leave much time for the 450km journey from Kelowna. After making the tactical decision of skipping a drive-through dinner, we managed to arrive at the gates around 10:55PM. For those who don't know, Squamish is a seaport town located along the Sea to Sky Highway between Vancouver and Whistler, and is marked by the giant granite monolith towering above the city known as Stawamus Chief. Squamish should be a destination on any climbers list, offering an abundance of beginner friendly to extremely difficult trad and sport routes scattered upon the chief aswell as the granite walls surrounding the city. As we pulled into one of the last camping spots, we cracked open some beers and gazed at the large dark shadow of granite blotting out the stars, rising up from the trees before us.
 
 The next morning we discussed our plan of attack while boiling up coffee and oatmeal on the tailgate of my truck. After breakfast we arrived at the smoke bluffs, a series of pleasant crags overlooking the city below. The smoke bluffs offer an easy approach towards a high concentration of single pitch climbs, perfect for re-learning proper crack technique. This would also only be my second day leading trad, so I was a little apprehensive to say the least. However, after a morning full of easy leads up to 5.8 I was starting to feel a lot more comfortable.
 
-\[caption id="attachment\_216" align="aligncenter" width="849"\]![ec7964106478814eb88a838d810401c28b842e94.jpg](images/ec7964106478814eb88a838d810401c28b842e94.jpg) Burgers and Fries wall at the Smoke Bluffs\[/caption\]
+![Imgur](https://i.imgur.com/NMq2NcTh.jpg)
 
 We headed back into town for lunch and enjoyed a wallet friendly value meal from the golden arches before gearing up again. We then headed towards one of the most memorable cracks that I've seen, Exasperator. It is a two-pitch climb following a perfectly cut hand crack that zigzags its way up the otherwise featureless granite until it veers off right into an upwards traverse, and goes at 10a for the first pitch, followed by 10c.
 
@@ -15,7 +23,7 @@ Quin has a tad more climbing talent and confidence than I, and calmly set off up
 
 I can see why this route made Top 100 Squamish climbs, besides being one of the most aesthetically pleasing splitters that I've seen, it also has fun, quality moves all the way to the top. Next time I'm here I'll definitely have to take my own go at it on lead.
 
-\[caption id="attachment\_220" align="aligncenter" width="698"\]![1490765726220](images/1490765726220.jpg) Exasperator Crack, Squamish BC\[/caption\]
+![Imgur](https://i.imgur.com/YTqsLNNh.jpg)
 
 After our success on Exasperator we cooled down on the beginner climbs at Murrin Park, practicing top belaying and anchor building before heading to bed. The next morning we were to climb up Skywalker, another Top 100 climb made up of 5 pitches ranging from 5.4 to 5.8 on the large granite face beside Shannon Falls.
 
@@ -29,17 +37,13 @@ A couple of easy moves brings you up to a bolt at which point you shimmy up a
 
 Pitch two starts in a corner at the far end of the belay ledge, and trends up a crack that promises laybacking all the way till the end. Another option is a 10a variation just off to the left up a thin flake which later joins back into the main crack. Pitch two went off without too many issues, with my friend heading up the 10a as it seemed to feel like an easier start, although the flake thins out near the end and runs out of many pro placements. It is the pumpiest pitch on the route, but since I was cleaning following the flake was actually quite enjoyable, the thinner ledges being reminiscent of most of Kelowna's crimpy climbing. After swapping gear and re organizing, it was once again my lead.
 
-\[caption id="attachment\_media-3" align="aligncenter" width="1920"\]![Untitled.png](images/untitled.png) Following up pitch 2\[/caption\]
+![Imgur](https://i.imgur.com/6vaZ0Hjh.png)
 
 Pitch 3 follows a vertical finger crack along a wide flake, until it thins out and you reach a bolt about halfway up. Past this bolt the route trends directly upwards up a series of easier broken cracks until you hit the final crux up high. Right below the chains you will encounter a chimney with a shallow crack running up the center of it. Unluckily for me I had run out of pro in the relevant sizes, and was committed into leading up my first offwidthy problem unprotected. The good news is that the final stretch isn't actually particularly hard, and if you had smaller cams to protect it via the inner crack (think C3s), then there wouldn't be much intimidating about it at all.
 
- 
-
-\[caption id="attachment\_328" align="aligncenter" width="1920"\]![climber will](images/climber-will.png) View from the chains at the top of pitch 3\[/caption\]
+![Imgur](https://i.imgur.com/gae0aoKh.png)
 
 Pitch 4  is where this climb gets its name, as the route takes a sharp right turn and traverses across a slab which offers a generous amount of exposure below. unfortunately at this point my GoPro had died so I don't have any screengrabs of this section. Following was once again really enjoyable, and this pitch really is the highlight of the route. Bomber underclings bring you along the traverse, with the foot ledge slowly widening until it's about the size of a narrow sidewalk.
-
-\[caption id="attachment\_media-8" align="aligncenter" width="1280"\]![x28_file-55775c20a915c-img-9229.jpg.pagespeed.ic.HM37AjgrIU.jpg](images/x28_file-55775c20a915c-img-9229-pagespeed-ic-hm37ajgriu.jpg) Pitch 4, Skywalker - My GoPro had died at this point, but here is a photo taken by John Price (@JohnPricePhotography) which gives a good sense of the exposure on this part of the climb.\[/caption\]
 
 At this point the route is pretty well freed, as the final pitch of 5.4 goes up a very easy slab with a generous amount of bolts which would probably be easier to simul if you were looking to save some time. Standing at the final chains was a pretty rad feeling, and I was truly ecstatic about completing my first multipitch. Its hard to think that just a few years ago I had trouble committing to easy scrambles during hikes.
 

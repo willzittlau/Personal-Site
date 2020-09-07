@@ -1,13 +1,13 @@
 ---
 title: "Garibaldi Neve Traverse In A Day"
-createdAt: "2019-04-1"
-description: "One long marathon effort while walking with skis on"
+createdAt: "2019-04-14"
+description: "A marathon of walking with skis on"
 img: "https://i.imgur.com/zbhUBNuh.png"
 alt: "Garibaldi Neve"
 featured: "yes"
 tags:
   - skiing
-  - garibaldi
+  - garibaldi neve
   - squamish
   - backcountry
 ---
