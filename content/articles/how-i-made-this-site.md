@@ -12,37 +12,17 @@ tags:
   - projects
 ---
 
-
-
-Well, 2020 certainly turned everyone's world upside down.  Since graduating in the spring I've been intensely focusing on coding, and getting up to speed with current frameworks and trends. After getting pretty solid with back-end work on some personal web apps using Flask, I wanted to turn my attention towards the ever so trendy JAMstack and new JS frameworks for more front-end experience . Re-writing my wordpress blog from scratch and deploying it as either an SPA or full-static seemed like the perfect choice.
-
-
-
-That left me with deciding which site generator to use. This whole project started by discovering Jekyll, and discovering how much I liked writing content in markdown. The only thing was that I wanted practice with one of the new JS frameworks and I've yet to touch Ruby. Next I discovered 11ty, which seems awesome, but I wanted to have more of a challenge. That left me with React/Gatsby which seems like it's the most popular,  or Vue - in which I found VuePress, Nuxt, or Gridsome. I liked Vue over React from the little experience I had, so I started there. VuePress dosn't seem as customizable as the other two, and I wasn't wanting to learn GraphQL ontop of a new framework so Nuxt it was. 
-
-
-
 ![Static Site Generators](https://snipcart.com/media/204774/best-static-site-generator-2020.png)
 
-<center>So many choices...</center>
+Since graduating in the spring I've been intensely focusing on coding, and getting up to speed with current frameworks and trends. After getting pretty solid with back-end work on some personal web apps using Flask, I wanted to turn my attention towards the ever so trendy JAMstack and new JS frameworks for more front-end experience . Re-writing my wordpress blog from scratch and deploying it as either an SPA or full-static seemed like the perfect choice.
 
+That left me with deciding which site generator to use. This whole project started by discovering Jekyll, and discovering how much I liked writing content in markdown. The only thing was that I wanted practice with one of the new JS frameworks and I didn't want my project to be in Ruby. Next I discovered 11ty, which seems awesome, but I wanted to have more of a challenge. That left me with React/Gatsby which seems like it's the most popular,  or Vue - in which I found VuePress, Nuxt, or Gridsome. I liked Vue over React from the little experience I had, so I started there. VuePress doesn't seem as customizable as the other two, and I wasn't wanting to learn GraphQL ontop of a new framework so Nuxt it was. Luckily for me, Nuxt just came out with Nuxt Content and full-static rendering in June, which was absolutely perfect.
 
+I started plugging away from the boilerplate created by running
+`npm create-nuxt-app` and opted in to use Bulma as the CSS framework. Thankfully the Nuxt/Vue documentation is really helpful, as I spent hours going through it  to fully understand each component/module I wanted to add.  Their introduction tutorial [found here](https://nuxtjs.org/blog/creating-blog-with-nuxt-content/) was a lifesaver and worth browsing through if you're interested in using the framework.
 
-Luckily for me, Nuxt just came out with Nuxt Content and full-static rendering  in June, which was absolutely perfect. 
-
-I started plugging away from the boilerplate created by running 
-
-```bash
-npm create-nuxt-app
-```
-
-and opted in to use Bulma as the CSS framework.  Thankfully the Nuxt/Vue documentation is really helpful, as I spent hours going through it  to fully understand each component/moduel I wanted to add.  Their introduction tutorial [Found here](https://nuxtjs.org/blog/creating-blog-with-nuxt-content/) was a lifesaver and worth browsing through if you're interested in using the framework.
-
-
-
-I'm not going to go into too much of the code, since a lot of it was only lightly modified from the tutorial for actually rendering each blog post, but I'll highlight onto what I did add.  The biggest adaptation was adding a /tags path to greatly improve site navigation and organize posts by type. This was as easy as :
-
-```vue
+I'm not going to go into too much of the code, since a lot of it was only lightly modified from the tutorial for actually rendering each blog post, but I'll highlight onto what I did add. If you want to go to my repo to view every vue component, all the power to you! The biggest adaptation was adding a /tags path to greatly improve site navigation and organize posts by type. This was as easy as adding a tags object in the markdown YAML, and this vue component:
+```javascript
 // pages/tags/_slug.vue
 <template>
   <div class="container journal">
@@ -89,14 +69,8 @@ export default {
 };
 </script>
 ```
-
-
-
-Where in the script I also included a small function for date formatting as well as an error catching function. I also added features posts on pages/index.vue by adding a "featured" component on the markdown YAML.
-
-
-
-```vue
+In the script I also included a small function for date formatting as well as an error catching function. I also added features posts on pages/index.vue by adding a "featured" component on the markdown YAML, and the code seen below.
+```javascript
 // pages/index.vue
 <template>
   <div>
@@ -127,14 +101,8 @@ export default {
 };
 </script>
 ```
-
-
-
-I also added custom error routes, I can't find the article I read but if I do I'll add a link to it here.
-
-
-
-```vue
+Another additon is that I added custom error routes, however I can't find the article that I read but if I do I'll add a link to it here.
+```javascript
 // layouts/error.vue
 <template>
   <div class="nuxt-error">
@@ -166,8 +134,7 @@ export default {
 };
 </script>
 ```
-
-```vue
+```javascript
 // components/404.vue
 <script>
 export default {
@@ -181,15 +148,9 @@ export default {
 };
 </script>
 ```
-
-
-
 Finally, for styling I used Bulma.css for this project, which made workflow quick and easy, especially for responsive displays on mobile. The next one I'm looking at checking out is Tailwind.css, there's a ton of Nuxt tutorials out there which are using it. I got some heavy inspiration from [this Gridsome theme](https://gridsome-forestry.netlify.app/) , but since it was written using Gridsome it was fun re-purposing and adapting it to work with Nuxt. It was also really helpful having a visual aid to direct my style decisions, I can see why teams use image templates prior to building.
 
-
-
 And that it! In about a week of work I went from an empty VS Code directory to the site you're reading this on now. In the end I ended up rendering it as a SPA, as I was having styling issues and some of my components weren't loading when going full static (Disqus - I'm looking at you). Actually, it's rendered as below, which means it's partially static, the all of the nuxt specific components work, but from what I understand my  dynamic pages from _slug.vue aren't created on build, they're rendered by js on client-side. Ohwell, my lighgthouse SEO score is perfect and it loads lightning quick anyways, even being bloated down by some SPA components.
-
 ```javascript
 //nuxt.config.js
 export default {
@@ -198,19 +159,9 @@ export default {
   ...
 }
 ```
-
 So as far as full static, that's still a work in progress but something I'll be chipping away at. 
 
+Oh and last of all, I deployed with Netlify. It's dead simple to use and works, and I don't need a CMS. I can write my .md content on desktop in Typora and push it to GitHub for seamless deployment.  I looked into something like Forestry so I can live preview, but I can achieve the same result by just using `npm run dev` to check followed by `nuxt build && nuxt generate` before committing.
 
-
-Oh and last of all, I deployed with Netlify. It's dead simple to use and works, and I don't need a CMS. I can write my .md content on desktop in Typora and push it to GitHub for seamless deployment.  I looked into something like Forestry so I can live preview, but I can achieve the same result by just using
-
-```bash
-npm run dev
-```
-
-before committing.
-
-
-
-Thanks for reading! If you have any questions or find any bugs let me know :)
+Thanks for reading! If you have any questions or find any bugs let me know &#128522;
+The project is also [available on my Github](https://github.com/willzittlau/Personal-Site) if you would like to use it as a template for your next site or browse the code.
