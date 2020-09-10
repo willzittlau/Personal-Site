@@ -1,7 +1,7 @@
 ---
-title: "How I made this site"
+title: "How I made this site with Nuxt.js"
 description: "Using the new Nuxt content module to make a rendered markdown blog"
-img: "https://i.imgur.com/PzfuHTih.jpg"
+img: "https://nuxtjs.org/nuxt-card.png"
 alt: "VS Code Nuxt site"
 featured: "yes"
 tags:
