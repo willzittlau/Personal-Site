@@ -1,7 +1,7 @@
 ---
 title: "How I made this site with Nuxt.js"
 description: "Using the new Nuxt content module to make a rendered markdown blog"
-img: "https://nuxtjs.org/nuxt-card.png"
+img: "https://helpdev.eu/wp-content/uploads/2019/01/nuxt-js.jpg"
 alt: "VS Code Nuxt site"
 featured: "yes"
 tags:

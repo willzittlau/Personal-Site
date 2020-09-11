@@ -30,7 +30,6 @@
 .nuxt-content-container, .nuxt-content-highlight, .nuxt-content p{
   white-space: pre-wrap;
   overflow-wrap: break-word;
-  overflow-x: auto;
   width: 80vw;
 }
 .nuxt-content h1 {
