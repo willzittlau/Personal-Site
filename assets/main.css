@@ -20,6 +20,43 @@
   text-align: center;
 }
 /* MD post styling*/
+.tag:not(body) {
+  background-color: transparent;
+  align-items: center;
+  display: inline;
+  font-size: 0.85rem;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  white-space: nowrap;
+}
+.token.tag {
+  color: #024b02 !important;
+}
+.token.boolean{
+color: #008eb9 !important;
+}
+.token.builtin{
+  color: #ff0000 !important;
+}
+.token.punctuation {
+  color: #7d0096 !important;
+}
+.token.operator {
+  color: #947e00 !important;
+}
+.number{
+  align-items: center;
+  background-color: transparent;
+  display: inline;
+  font-size: 0.9rem;
+  min-width: 0.5em;
+  padding: 0.25rem 0.25rem;
+  text-align: center;
+  vertical-align: top;
+  margin-right: 0.25rem;
+}
 .icon.icon-link {
   background-image: url('~assets/icon-hashtag.svg');
   display: inline-block;
