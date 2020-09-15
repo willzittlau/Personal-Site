@@ -2,7 +2,10 @@
   <div class="columns">
     <div class="column"></div>
     <div class="column is-four-fifths">
-      <h1>Social Feed</h1>
+      <div class="center">
+        <h1>Social Feed</h1>
+        <hr />
+      </div>
       <iframe
         src="https://cdn.lightwidget.com/widgets/be81feae99b65198bc97a51d2a396594.html"
         scrolling="no"
@@ -16,7 +19,6 @@
 </template>
 
 <script>
-// };
 export default {
   mounted() {
     const plugin = document.createElement("script");
@@ -31,12 +33,22 @@ export default {
 </script>
 
 <style scoped>
+.center {
+  max-width: 100vw;
+  min-width: 75vw;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+hr {
+  width: 40%;
+}
 h1 {
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
-  margin-top: 4rem;
-  margin-bottom: 0.5rem;
 }
 .columns {
   margin-bottom: 0.25rem;
