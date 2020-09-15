@@ -1,5 +1,6 @@
 ---
 title: "ETF Converter"
+createdAt: "2020-09-15"
 description: "Convert a portfolio of ETFs into individual holdings using Flask and pandas"
 img: "https://raw.githubusercontent.com/willzittlau/ETFSite/master/demo.gif"
 alt: "Gif of app example"

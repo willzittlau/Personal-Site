@@ -1,5 +1,6 @@
 ---
 title: "Bike to Ski"
+createdAt: "2020-09-11"
 description: "Human powered summit from Kelowna to Big White"
 img: ""
 alt: "Biking to Big White"

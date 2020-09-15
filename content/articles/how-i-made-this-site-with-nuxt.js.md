@@ -1,5 +1,6 @@
 ---
 title: "How I made this site with Nuxt.js"
+createdAt: "2020-09-08"
 description: "Using the new Nuxt content module to make a rendered markdown blog"
 img: "https://helpdev.eu/wp-content/uploads/2019/01/nuxt-js.jpg"
 alt: "VS Code Nuxt site"

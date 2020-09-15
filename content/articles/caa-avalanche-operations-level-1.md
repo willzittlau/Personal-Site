@@ -1,5 +1,6 @@
 ---
 title: "CAA Avalanche Operations Level 1"
+createdAt: "2020-09-14"
 description: "A week at Burnie Glacier Chalet"
 img: ""
 alt: "Burnie Glacier in Smithers BC"
