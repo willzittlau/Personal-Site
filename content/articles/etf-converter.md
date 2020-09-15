@@ -73,7 +73,7 @@ def convert(urls, pf):
             # Logic explained in next section
 ```
 
-In the loop the logic gets a bit tricky. Basically, we take the original dataframe, and iterate through each row. If the row contains an ETF, we append the scraped data to a new list. We then should delete this row from the original dataframe, as the holdings have been accounted for. However, before we do this we need to remember that these sites are only returning the top x holdings, which means there is still y value of unaccounted for holdings left in the ETF. We handle this by subtracting the sum from the value of holdings that were scraped, and then adding this result back to the original data frame with a 'Misc' notation in the name. Once the loop has completed, we first concatenate the list of dataframes together into one large dataframe. Next, we append the original portfolio dataframe to this, as this portfolio now only contains individual holdings and the misc values left in the ETFs. Finally, we take advantage of pandas' .groupby and sum() functions. This will group all values in the dataframe by a specified column (We'll use the ticker column), and then sums together all values from rows which share the same column value declared by the .groupby. We now have the resultant portfolio of individual holdings! 
+In the loop the logic gets a bit tricky. Basically, we take the original dataframe, and iterate through each row. If the row contains an ETF, we append the scraped data to a new list. We then should delete this row from the original dataframe, as the holdings have been accounted for. However, before we do this we need to remember that these sites are only returning the top x holdings, which means there is still y value of unaccounted for holdings left in the ETF. We handle this by subtracting the sum from the value of holdings that were scraped, and then adding this result back to the original data frame with a 'Misc' notation in the name. Once the loop has completed, we first concatenate the list of dataframes together into one large dataframe. Next, we append the original portfolio dataframe to this, as this portfolio now only contains individual holdings and the misc values left in the ETFs. Finally, we take advantage of pandas' `.groupby` and `sum()` functions. This will group all values in the dataframe by a specified column (We'll use the ticker column), and then sums together all values from rows which share the same column value declared by the `.groupby`. We now have the resultant portfolio of individual holdings!
 
 ```python
 # Continuing loop above
@@ -101,9 +101,13 @@ In the loop the logic gets a bit tricky. Basically, we take the original datafra
     df = pd.concat(etf_lib)
     pf['% Weight'] *= 100
     df = df.append(pf)
+    # This command will combine repeat tickers and sum their values, but doing so deletes the Name col
+    df = df.groupby(['Symbol'] , as_index=False).sum()
+    # Final sorted variable containing output
+    out = df.sort_values(by = '% Weight', ascending=False)
 ```
 
-One caveat of the sum() function is that any string value will also be concatenated. Therefore if MSFT showed up three times, the name column would now read 'MicrosoftMicrosoftMicrosoft'. To get around this, I created a new list which only contains name values which we remove prior to the sum function, and then inject them back in after the summation.  However this created a new problem, the length of the columns change as the summation removes rows. Therefore, my name data wasn't lining up. Using a dictionary with key:value pairs using the ticker and name solved this.
+One caveat of the `sum()` function is that any string value will also be concatenated. Therefore if MSFT showed up three times, the name column would now read 'MicrosoftMicrosoftMicrosoft'. To get around this, I created a new list which only contains name values which we remove prior to the sum function, and then inject them back in after the summation.  However this created a new problem, the length of the columns change as the summation removes rows. Therefore, my name data wasn't lining up. Using a dictionary with key:value pairs using the ticker and name solved this.
 
 ```python
 # Create names dict prior to summation
@@ -188,6 +192,7 @@ if __name__ == "__main__":
 ```
 
 ```jinja2
+    <!--Generate page content-->
     {% if table %}
         <div align = "center">
             <style scoped="">
@@ -212,9 +217,7 @@ if __name__ == "__main__":
     {% endif %}
 ```
 
-
-
-And voila! For the HTML baiscally Jinja creates some dynamic functionality by using an {% if %} statement on the return variables, so that part of the page content is hidden until the data is generated. Otherwise its pretty basic HTML/CSS but it's functional and doesn't look too bad. I launched it to Heroku, and took advantage of their ephemeral file system to temporaily store the user result. Currently not a very scalable solution, but it works perfectly on the single dyno included with the free plan. There's a gif of the working demo below, and if you've made it reading this far the entire source code is available at https://github.com/willzittlau/ETFSite. Thanks for reading!
+And voila! For the HTML baiscally Jinja creates some dynamic functionality by using an `{% if %}` statement on the return variables, so that part of the page content is hidden until the data is generated. Otherwise its pretty basic HTML/CSS but it's functional and doesn't look too bad. I launched it to Heroku, and took advantage of their ephemeral file system to temporaily store the user result. Currently not a very scalable solution, but it works perfectly on the single dyno included with the free plan. There's a gif of the working demo below, and if you've made it reading this far the entire source code is available at https://github.com/willzittlau/ETFSite. Thanks for reading!
 
 ![GIF of app example](https://raw.githubusercontent.com/willzittlau/ETFSite/master/demo.gif)
 
