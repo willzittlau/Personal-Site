@@ -125,7 +125,7 @@ for i in range(0,len(out['Symbol'])):
             out.at[i, 'Name'] = ('Misc ' + str(etfnames.get(j)) + ' Holdings')
 ```
 
-At this point I now had a program that worked in the terminal. Great, but I wanted to make this a useable service. And so, I started learning Flask! I love how intuitive it is and quick to pick up, and you can create an app in literally 10 lines of code. I ended up with three routes, the index page for uploading, a user printout validating what they uplaoded (If you're interested in this you can check the source code), and a download path for the resulting .csv. I used flask-dropzone to handle the user upload form. The skeleton structure looks something like this:
+At this point I now had a program that worked in the terminal. Great, but I wanted to make this a useable service. And so, I started learning Flask! I love how intuitive it is and quick to pick up, and you can create an app in literally 10 lines of code. I ended up with three routes, the index page for uploading, a user printout validating what they uploaded (If you're interested in this you can check the source code), and a download path for the resulting .csv. I used flask-dropzone to handle the user upload form. The skeleton structure looks something like this:
 
 ```python
 # Import libraries
@@ -218,11 +218,6 @@ if __name__ == "__main__":
     {% endif %}
 ```
 
-And voila! For the HTML baiscally Jinja creates some dynamic functionality by using an `{% if %}` statement on the return variables, so that part of the page content is hidden until the data is generated. Otherwise its pretty basic HTML/CSS but it's functional and doesn't look too bad. I launched it to Heroku, and took advantage of their ephemeral file system to temporaily store the user result. Currently not a very scalable solution, but it works perfectly on the single dyno included with the free plan. There's a gif of the working demo below, and if you've made it reading this far the entire source code is available at https://github.com/willzittlau/ETFSite. Thanks for reading!
+And voila! For the HTML basically Jinja creates some dynamic functionality by using an `{% if %}` statement on the return variables, so that part of the page content is hidden until the data is generated. Otherwise its pretty basic HTML/CSS but it's functional and doesn't look too bad. I launched it to Heroku, and took advantage of their ephemeral file system to temporaily store the user result. Currently not a very scalable solution, but it works perfectly on the single dyno included with the free plan. There's a gif of the working demo below, and if you've made it reading this far the entire source code is available at https://github.com/willzittlau/ETFSite. Thanks for reading!
 
 ![GIF of app example](https://raw.githubusercontent.com/willzittlau/ETFSite/master/demo.gif)
-
-
-
-
-
