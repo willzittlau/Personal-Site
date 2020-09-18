@@ -67,6 +67,9 @@ export default {
 </script>
 
 <style scoped>
+.comments{
+  margin-top: 4rem;
+}
 .header-block {
   margin: 0px 10vw 0px 10vw;
 }
