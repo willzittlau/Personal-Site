@@ -1,4 +1,4 @@
-/* Transitions*/
+/* Transitions */
 .page-enter-active,
 .page-leave-active {
   transition: all 0.5s;
@@ -9,7 +9,7 @@
   opacity: 0.25;
   transform: scale(0.9);
 }
-/* generic div*/
+/* generic div */
 .container {
   margin: 0 auto;
   width: 100vw;
@@ -19,7 +19,7 @@
   align-items: center;
   text-align: center;
 }
-/* MD post styling*/
+/* Prism JS styling */
 .tag:not(body) {
   background-color: transparent;
   align-items: center;
@@ -31,22 +31,23 @@
   padding-right: 0.25em;
   white-space: nowrap;
 }
-.token.variable{
+.token.variable {
   color: #bd971a !important;
 }
 .token.string {
-    color:  #b83f3f !important;
+  color: #b83f3f !important;
 }
 .token.tag {
   color: #32b8b5 !important;
 }
-.token.boolean{
-color: #0084ff !important;
+.token.boolean {
+  color: #0084ff !important;
 }
-.token.property{
+.token.property {
   color: #d86800 !important;
 }
-.token.attr-name, .token.builtin{
+.token.attr-name,
+.token.builtin {
   color: #f565be !important;
 }
 .token.punctuation {
@@ -55,7 +56,7 @@ color: #0084ff !important;
 .token.operator {
   color: #d86800 !important;
 }
-.number{
+.number {
   align-items: center;
   background-color: transparent;
   display: inline;
@@ -66,14 +67,17 @@ color: #0084ff !important;
   vertical-align: top;
   margin-right: 0rem;
 }
+/* MD post styling */
 .icon.icon-link {
-  background-image: url('~assets/icon-hashtag.svg');
+  background-image: url("~assets/icon-hashtag.svg");
   display: inline-block;
   width: 20px;
   height: 20px;
   background-size: 20px 20px;
 }
-.nuxt-content-container, .nuxt-content-highlight, .nuxt-content p{
+.nuxt-content-container,
+.nuxt-content-highlight,
+.nuxt-content p {
   white-space: pre-wrap;
   overflow-wrap: break-word;
   width: 80vw;
@@ -102,6 +106,9 @@ color: #0084ff !important;
 .nuxt-content h4 {
   font-weight: bold !important;
   font-size: 18px;
+}
+.nuxt-content p {
+  margin-top: 25px;
 }
 /* Ovverride Bulma to underline instead of highight navbar */
 .navbar-item:hover,
