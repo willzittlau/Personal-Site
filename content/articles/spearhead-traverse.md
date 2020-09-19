@@ -4,7 +4,7 @@ createdAt: "2019-04-11"
 description: "Getting a taste of spring touring on the coast"
 img: "https://i.imgur.com/QJcW42uh.jpg"
 alt: "Spearhead Traverse"
-featured: "no"
+featured: "yes"
 tags:
   - skiing
   - garibaldi

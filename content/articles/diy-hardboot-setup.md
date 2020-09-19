@@ -2,7 +2,7 @@
 title: "DIY Hardboot Setup"
 createdAt: "2020-02-03"
 description: "Home-made bindings, boot mods and adaptors"
-featured: "yes"
+featured: "no"
 img: "https://i.imgur.com/uRT5GvJ.jpg"
 alt: "G3 Scapegoat Splitboard + Hardboot bindings"
 tags:

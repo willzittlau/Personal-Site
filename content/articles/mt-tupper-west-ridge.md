@@ -4,7 +4,7 @@ createdAt: "2017-09-08"
 description: "The story of my first alpine climb"
 img: "https://i.imgur.com/2QY8HJAh.jpg"
 alt: "Summit of Mt Tupper"
-featured: "yes"
+featured: "no"
 tags:
   - climbing
   - rogers pass

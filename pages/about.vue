@@ -17,7 +17,6 @@ export default {
 <style scoped>
 .mdpage {
   margin: 0px 10vw 0px 10vw;
-  min-height: 100vh;
   display: flex;
 }
 </style>

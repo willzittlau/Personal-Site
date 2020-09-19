@@ -4,7 +4,7 @@ createdAt: "2020-02-02"
 description: "The ultimate weekend warrior coastal bike route"
 img: "https://i.imgur.com/8aqdbP5h.jpg"
 alt: "Bikepacking rigs"
-featured: "yes"
+featured: "no"
 tags:
   - biking
   - bikepacking
