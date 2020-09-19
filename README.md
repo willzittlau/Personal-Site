@@ -1,9 +1,9 @@
 # Personal site for blog/portfolio
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d117a89a-1448-4850-99ae-9bbddc2fd2c7/deploy-status)](https://app.netlify.com/sites/suspicious-nightingale-117850/deploys)
-
 Built with Nuxt, Bulma, and Netlify. View here at [willzittlau.com](https://willzittlau.com)
+Uses Nuxt/Content to render markdown posts and use Git as headless CMS
 
 ## Build Setup
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d117a89a-1448-4850-99ae-9bbddc2fd2c7/deploy-status)](https://app.netlify.com/sites/suspicious-nightingale-117850/deploys)
 
 ```bash
 # install dependencies
