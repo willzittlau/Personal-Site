@@ -1,5 +1,6 @@
 # Personal site for blog/portfolio
 Built with Nuxt, Bulma, and Netlify. View here at [willzittlau.com](https://willzittlau.com)
+
 Uses Nuxt/Content to render markdown posts and use Git as headless CMS
 
 ## Build Setup
