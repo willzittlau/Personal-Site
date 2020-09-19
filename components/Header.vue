@@ -5,7 +5,7 @@
     <!--Logo / home ref -->
     <div class="navbar-brand">
       <NuxtLink class="navbar-item" id="logo" to="/">
-        <img src="~assets/400x400-logo.png" />
+        <img src="~assets/400x400-logo.png" alt="Will Zittlau logo" />
       </NuxtLink>
       <!--Hamburger for mobile, vue binding for onclick-->
       <a

@@ -1,5 +1,4 @@
 # Who am I?
-<br>
 
 ![Imgur](https://i.imgur.com/wfM0azy.jpg)
 
