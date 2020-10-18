@@ -40,7 +40,7 @@
           </div>
         </div>
         <NuxtLink class="navbar-item underline" to="/contact">Contact</NuxtLink>
-        <a class="navbar-item underline" href="https://willz.dev" target="_blank">Resume</a>
+        <a class="navbar-item underline" href="https://willz.dev" target="_blank">CV</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
     </div>

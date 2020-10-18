@@ -8,6 +8,11 @@
           </a>
         </span>
         <span>
+          <a href="https://vimeo.com/user80709827">
+            <fa :icon="['fab', 'vimeo-v']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
+          </a>
+        </span>
+        <span>
           <a href="https://www.instagram.com/willzittlau/">
             <fa :icon="['fab', 'instagram']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
           </a>
