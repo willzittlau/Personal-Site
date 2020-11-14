@@ -2,8 +2,7 @@
   <div class="hero">
     <h1 class="hero-title">Hi, my name's Will.</h1>
     <h2 class="hero-subtitle">
-      Welcome to my site, a blog/portfolio hybrid
-      <br />which gives a glimpse at who I am.
+      Welcome to my blog, a small glimpse at who I am.
     </h2>
   </div>
 </template>
