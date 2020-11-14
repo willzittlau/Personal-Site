@@ -1,5 +1,5 @@
 ---
-title: "Ski Forecast app"
+title: "Ski Forecast App"
 createdAt: "2020-011-13"
 description: "Avalanche Canada + Spot WX Forecasts"
 img: "https://i.imgur.com/PobEovnh.png"
@@ -17,7 +17,7 @@ tags:
 
 Well, it's about time to make part two of this project. The past month has been busy (I landed my first dev job!!!) so I haven't had as much time to focus on the blog. But, now that I've been out skiing and Avy Canada has started up their forecasts again it was time to finish this post. In part one I covered the API which powers the backend of this app, so here I'll focus on how the UI is generated. 
 
-Once again Flask is used, and the app is launched to Heroku (no surprises here) at https://skiforecast.herokuapp.com. The main idea was to have two categories, backcountry and resort, and to streamline my decision making process midweek when I'm looking at where to ski on the weekend. The landing page is dead simple, with some extremely minimal CSS through one of the lighter frameworks out there, Pure CSS, to generate styling for all of the links. Click on one of the areas and the app gets a lot more fun.
+Once again Flask is used, and the app is launched to Heroku (no surprises here) at https://skiforecast.herokuapp.com . The main idea was to have two categories, backcountry and resort, and to streamline my decision making process midweek when I'm looking at where to ski on the weekend. The landing page is dead simple, with some extremely minimal CSS through one of the lighter frameworks out there, Pure CSS, to generate styling for all of the links. Click on one of the areas and the app gets a lot more fun.
 
 To generate all the pages, the API is called on initial load. Clicking on an area triggers another request to Avalanche Canada's API as well as a function which scrapes data from SpotWX. The two most forecast models I use the most are HRDPS and NAM, so these are what get pulled. I need to do some major cleanup for organization, but for now all of the scripts are (in?)conveniently placed in `scripts.py`. My `app.py` route for the forecasts page looks something like this:
 
