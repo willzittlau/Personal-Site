@@ -10,10 +10,10 @@ tags:
   - coding
   - python
   - flask
-  - REST api
+  - REST API
 ---
 
-***This is post 1/2 in a two part project. to view the other half of this project click [here](#).***
+***This is post 1/2 in a two part project. to view the other half of this project click [here](https://willzittlau.com/blog/ski-forecast-app).***
 
 After my first two Python projects,  I was reading more and more into skills I should focus on learning to become more employable as a jr developer. Naturally, REST APIs came up. I watched some tutorials, and understood the concept, but I was finding it hard to get motivated on projects without there being any use case. Then I thought of creating a ski forecast app. When I go skiing I check both the avalanche forecast as well as weather data, and thought why not combine both into a single app for personal use? Then, to integrate the API portion, I would save forecast areas to the API and then query that with the main app to return data and generate the site pages. Great! Sticking with what I knew, I started up another Flask app and integrated Postgres again as the database (through Heroku).
 
