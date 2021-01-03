@@ -85,4 +85,8 @@ export default {
 .navbar-item#logo:hover {
   background-color: white !important;
 }
+
+.navbar-link:not(.is-arrowless):after{
+  border-color: black;
+}
 </style>
