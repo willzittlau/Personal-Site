@@ -26,7 +26,7 @@ export default {
           clearInterval(this.intervalId);
         }
         window.scroll(0, window.pageYOffset - 50);
-      }, 20);
+      }, 12);
     },
     scrollListener: function (e) {
       this.visible = window.scrollY > 150;
@@ -44,5 +44,9 @@ export default {
 <style scoped>
 a {
   color: rgb(85, 85, 85) !important;
+}
+button:hover {
+  box-shadow: 0 5px 15px -10px rgba(0, 0, 0, 0.25);
+  transform: scale(1.05);
 }
 </style>

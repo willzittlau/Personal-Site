@@ -14,7 +14,7 @@
         aria-label="menu"
         aria-expanded="false"
         @click="isOpen = !isOpen"
-        v-bind:class="{'is-active': isOpen}"
+        v-bind:class="{ 'is-active': isOpen }"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -22,13 +22,20 @@
       </a>
     </div>
     <!-- Other links -->
-    <div class="navbar-menu" v-bind:class="{'is-active': isOpen}">
+    <div class="navbar-menu" v-bind:class="{ 'is-active': isOpen }">
       <div class="navbar-start">
         <Search class="navbar-item" />
       </div>
-      <div class="navbar-end">
+      <div
+        class="navbar-end"
+        id="mobile-list"
+        @click="isOpen = !isOpen"
+        v-bind:class="{ 'is-active': isOpen }"
+      >
         <NuxtLink class="navbar-item underline" to="/about">About</NuxtLink>
-        <NuxtLink class="navbar-item underline" to="/tags/projects">Projects</NuxtLink>
+        <NuxtLink class="navbar-item underline" to="/tags/projects"
+          >Projects</NuxtLink
+        >
         <div class="navbar-item has-dropdown is-hoverable">
           <NuxtLink class="navbar-link underline" to="/blog">Blog</NuxtLink>
           <div class="navbar-dropdown is-boxed is-right">
@@ -40,7 +47,12 @@
           </div>
         </div>
         <NuxtLink class="navbar-item underline" to="/contact">Contact</NuxtLink>
-        <a class="navbar-item underline" href="https://willz.dev" target="_blank">CV</a>
+        <a
+          class="navbar-item underline"
+          href="https://willz.dev"
+          target="_blank">
+          CV
+          </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
     </div>
