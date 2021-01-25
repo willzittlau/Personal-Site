@@ -24,7 +24,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
+        content: "Will Zittlau - Skiing, Climbing, Running, Backpacking, Biking & More."
       }
     ],
     link: [

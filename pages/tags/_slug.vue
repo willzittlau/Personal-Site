@@ -40,6 +40,16 @@ export default {
       });
     }
   },
+      head: {
+    title: 'Will Zittlau - Tags',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Will Zittlau - Post Tags'
+      }
+    ],
+  },
 };
 </script>
 

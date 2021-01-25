@@ -63,6 +63,16 @@ export default {
       });
     }
   },
+    head: {
+    title: 'Will Zittlau - Blog',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Will Zittlau - Blog Posts'
+      }
+    ],
+  },
 };
 </script>
 

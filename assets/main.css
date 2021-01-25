@@ -108,7 +108,7 @@
   font-size: 18px;
 }
 .nuxt-content p {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 /* Ovverride Bulma to underline instead of highight navbar */
 .navbar-item:hover,

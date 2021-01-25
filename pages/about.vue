@@ -11,6 +11,16 @@ export default {
     const mdContent = await $content("pages/about").fetch();
     return { mdContent };
   },
+  head: {
+    title: "Will Zittlau - About",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: "Will Zittlau - About me",
+      },
+    ],
+  },
 };
 </script>
 

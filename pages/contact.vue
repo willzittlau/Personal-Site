@@ -38,3 +38,18 @@
     <div class="column"></div>
   </div>
 </template>
+
+<script>
+export default {
+    head: {
+    title: 'Will Zittlau - Contact',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Will Zittlau - Contact me'
+      }
+    ],
+  },
+}
+</script>
