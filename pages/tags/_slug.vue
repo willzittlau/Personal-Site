@@ -1,6 +1,7 @@
 <template>
   <div class="container journal">
     <h1>Tags: {{ $route.params.slug }}</h1>
+    <hr />
     <ul>
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink class="journal-post" :to="{ name: 'blog-slug', params: { slug: article.slug } }">
@@ -54,6 +55,14 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+hr {
+  width: 30%;
+}
 ul {
   width: 100%;
 }

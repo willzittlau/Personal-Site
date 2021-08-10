@@ -1,6 +1,8 @@
 <template>
   <div>
     <div class="container journal">
+      <h1>All Blog Posts</h1>
+      <hr />
       <ul>
         <li v-for="article of articles" :key="article.slug">
           <NuxtLink
@@ -38,20 +40,28 @@ export default {
       articles,
     };
   },
-      head: {
-    title: 'Will Zittlau - Blog',
+  head: {
+    title: "Will Zittlau - Blog",
     meta: [
       {
-        hid: 'description',
-        name: 'description',
-        content: 'Will Zittlau - Blog Posts'
-      }
+        hid: "description",
+        name: "description",
+        content: "Will Zittlau - Blog Posts",
+      },
     ],
   },
 };
 </script>
 
 <style scoped>
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+hr {
+  width: 30%;
+}
 ul {
   width: 100%;
 }

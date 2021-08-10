@@ -1,8 +1,6 @@
-# Who am I?
-
 ![Imgur](https://i.imgur.com/wfM0azy.jpg)
 
 I'm a Kelowna native but thrive anywhere on the West Coast. I love anything outside and try to be there as much as possible. I’m a skier first and foremost, but also enjoy climbing, backpacking, biking, running and more! Really, I just try to say yes to everything and experience as much in this life as I can. I love the mountains and their complexity, and spend as much time as possible with them. After getting into longer days in the backcountry I have been getting into endurance athletics and adventure racing, savouring the physical and mental challenge. Although I’m not trying to take things too seriously, I do believe no goal is too big with an open mind and the right dedication, and I apply this positive approach to the rest of my life with a healthy dose of optimism as well. This site consists of a blog with trip reports serving as a future memoir for myself as well as the odd gear review or DIY component. I've morphed it with a personal portfolio as well, and you can see a detailed write up on projects I've worked on, as well as access my CV. I am by no means a professional writer, but I hope you will enjoy reading through my stories and opinions.
 
 <br>
-<center>Don't hesitate to get in touch! You can reach me directly by clicking on the <nuxt-link to="/contact">Contact</nuxt-link> link in the header of this site. Or, to see my professional experience <a href="https://willz.dev">Click Here</a></center>
+<center>Don't hesitate to get in touch! You can reach me directly by clicking on the <nuxt-link to="/contact">Contact</nuxt-link> link in the header of this site.</center>
