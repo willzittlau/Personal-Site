@@ -33,9 +33,6 @@
         v-bind:class="{ 'is-active': isOpen }"
       >
         <NuxtLink class="navbar-item underline" to="/about">About</NuxtLink>
-        <NuxtLink class="navbar-item underline" to="/tags/projects"
-          >Projects</NuxtLink
-        >
         <div class="navbar-item has-dropdown is-hoverable">
           <NuxtLink class="navbar-link underline" to="/blog">Blog</NuxtLink>
           <div class="navbar-dropdown is-boxed is-right">
@@ -44,10 +41,12 @@
             <NuxtLink class="navbar-item underline" to="/tags/running">Running</NuxtLink>
             <NuxtLink class="navbar-item underline" to="/tags/climbing">Climbing</NuxtLink>
             <NuxtLink class="navbar-item underline" to="/tags/hiking">Hiking</NuxtLink>
+            <NuxtLink class="navbar-item underline" to="/tags/projects">Projects</NuxtLink>
           </div>
         </div>
         <NuxtLink class="navbar-item underline" to="/contact">Contact</NuxtLink>
         <NuxtLink class="navbar-item underline" to="/media">Media</NuxtLink>
+        <NuxtLink class="navbar-item underline" to="press">Press</NuxtLink>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
     </div>

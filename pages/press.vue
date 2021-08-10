@@ -1,10 +1,7 @@
 <template>
-<div>
     <div class="journal">
-      <h1>Media</h1>
+      <h1>Press</h1>
       <hr />
-  </div>
-  <MediaFeed />
   </div>
 </template>
 
