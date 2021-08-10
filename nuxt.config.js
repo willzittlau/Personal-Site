@@ -31,8 +31,8 @@ export default {
       {
         rel: "icon",
         type: "image/png",
-        sizes: "96x96",
-        href: "/favicon-96x96.png"
+        sizes: "192x192",
+        href: "/favicon.png"
       }
     ]
   },

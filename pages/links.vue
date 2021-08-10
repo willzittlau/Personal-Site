@@ -1,23 +1,24 @@
 <template>
-    <div class="journal">
-      <h1>Links</h1>
-      <hr />
+  <div class="journal">
+    <h1>Links</h1>
+    <hr />
   </div>
 </template>
 
 <script>
 export default {
-    head: {
-    title: 'Will Zittlau - Contact',
+  layout: "links",
+  head: {
+    title: "Will Zittlau - Links",
     meta: [
       {
-        hid: 'description',
-        name: 'description',
-        content: 'Will Zittlau - Contact me'
-      }
+        hid: "description",
+        name: "description",
+        content: "Will Zittlau - Links",
+      },
     ],
   },
-}
+};
 </script>
 
 <style scoped>
