@@ -85,7 +85,7 @@ export default {
           },
           {
             set: "@fortawesome/free-solid-svg-icons",
-            icons: ["faChevronUp"]
+            icons: ["faChevronUp", "faMapMarkerAlt", "faEnvelope"]
           }
         ]
       }
