@@ -25,7 +25,12 @@
         href="https://www.instagram.com/willzittlau/"
         target="_blank"
       >
-        <img src="/assets/instagram.png" alt="instagram" width="40" height="40" />
+        <img
+          src="/assets/instagram.png"
+          alt="instagram"
+          width="40"
+          height="40"
+        />
         Instagram
       </a>
       <a class="link" href="https://tiktok.com/@willzittlau" target="_blank">
@@ -49,7 +54,8 @@
         />Strava</a
       >
       <a class="link" href="https://willzittlau.com/" target="_blank">
-        <img src="/assets/pen.png" alt="blog" width="40" height="40" />Personal Blog</a
+        <img src="/assets/pen.png" alt="blog" width="40" height="40" />Personal
+        Blog</a
       >
       <a class="link" href="https://getaccountable.ca" target="_blank"
         ><img
@@ -139,12 +145,21 @@ export default {
 <style scoped>
 * {
   --bgColor: white;
-  --accentColor: #3e3e3e;
-  --accentHoverColor: #3e3e3e;
+  --accentColor: #2f2f2f;
+  --accentHoverColor: #2f2f2f;
   --font: "Roboto", sans-serif;
 }
 body {
-  height: 100vh;
+  background: linear-gradient(
+    0deg,
+    rgba(210, 210, 210, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
   padding: 8px;
   background-color: var(--bgColor);
   font-family: var(--font);
@@ -153,7 +168,7 @@ body {
   width: 120px;
   height: 120px;
   display: block;
-  margin: 35px auto 20px;
+  margin: 30px auto 20px;
   border: 3px solid black;
   border-radius: 50%;
 }
@@ -228,17 +243,18 @@ h6 {
 }
 footer {
   text-align: center;
+  padding-bottom: 24px;
 }
 footer a {
   font-size: medium;
-  color: var(--accentColor);
+  color: #000;
   text-decoration: none;
   text-decoration: none;
   opacity: 0.8;
   transition: all 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
 }
 footer a:hover {
-  color: var(--accentHoverColor);
+  color: #000;
   border-bottom: 1px dashed var(--accentHoverColor);
   padding-bottom: 2px;
 }
