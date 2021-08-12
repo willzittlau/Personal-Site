@@ -1,8 +1,8 @@
 <template>
   <div class="hero">
-    <h1 class="hero-title">Hi, my name's Will.</h1>
+    <h1 class="hero-title">Hi, my name's Will</h1>
     <h2 class="hero-subtitle">
-      Welcome to my blog, a small glimpse at who I am.
+      Exploring and sharing the human experience.
     </h2>
   </div>
 </template>
