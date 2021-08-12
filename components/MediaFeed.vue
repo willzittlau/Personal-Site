@@ -1,6 +1,5 @@
 <template>
   <section id="masonry-container">
-    <br />
     <vue-masonry-wall :items="items" :options="options" @append="append">
       <template v-slot:default="{ item }">
         <div class="Item">
@@ -43,7 +42,7 @@ a {
   color: #505050;
 }
 #masonry-container {
-  padding: 0 24px;
+  padding: 24px;
 }
 .Item {
   overflow: hidden;
