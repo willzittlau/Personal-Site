@@ -3,85 +3,11 @@
     <h1>Press</h1>
     <hr />
     <ul>
-      <li>
-        <a
-          class="journal-post"
-          href="https://www.iheartradio.ca/am-1150/audio-video/will-zittlau-biking-across-canada-1.15835280?mode=Article&fbclid=IwAR2y9L86Rz8CblG3GTGWQ7If6apNJ2tVhKAx7Znx9rTknJjhy5lSHf45GpU"
-          target="_blank"
-        >
+      <li v-for="data in $options.pressData" :key="data.id">
+        <a class="journal-post" target="_blank" :href="data.url">
           <div>
-            <h2 class="journal-title">The Early Edition - AM1150 News</h2>
-            <p class="journal-excerpt">Radio podcast - Bike across Canada</p>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a
-          class="journal-post"
-          href="https://www.iheartradio.ca/virginradio/vancouver/trending/ubc-grad-pedalling-in-the-path-of-his-father-by-biking-across-canada-1.15394560?fbclid=IwAR1-cBTDhBDd_MoWUlsJo-uF3TdBKydTi6KdrYar-2cRLFrJ5MvHNPlNtTw"
-          target="_blank"
-        >
-          <div>
-            <h2 class="journal-title">Virgin Radio Vancouver</h2>
-            <p class="journal-excerpt">
-              Phone Interview / Article - Bike across Canada
-            </p>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a
-          class="journal-post"
-          href="https://www.660citynews.com/video/2021/06/20/cycling-across-canada-to-honour-a-fathers-legacy/?fbclid=IwAR2PNqq-Q0cgOT463l0J2KN6MzugXecXS6yhunYjh-b2UGcq5flP0U6xdiA"
-          target="_blank"
-        >
-          <div>
-            <h2 class="journal-title">City News Calgary</h2>
-            <p class="journal-excerpt">
-              Zoom Interview / Video - Bike across Canada
-            </p>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a
-          class="journal-post"
-          href="https://www.castanet.net/news/Kelowna/341843/Kelowna-man-cycles-across-Canada-to-recreate-his-father-s-journey-decades-earlier?fbclid=IwAR0gkcJiXbr3yfDK0nQWifOKI6NpsRwg_fdJkPIiLak-X5jqMrqCrPwCJQk"
-          target="_blank"
-        >
-          <div>
-            <h2 class="journal-title">Castanet Kelowna</h2>
-            <p class="journal-excerpt">
-              In-Person Interview - Bike across Canada
-            </p>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a
-          class="journal-post"
-          href="https://www.pressreader.com/canada/the-daily-courier/20210804/281788517108396?fbclid=IwAR2HcRdzjHwyX5egEp6UmW6-zd_oLDxpMDh9gUh8PGrUeAPutXAHj_smvy8"
-          target="_blank"
-        >
-          <div>
-            <h2 class="journal-title">The Daily Courier Kelowna</h2>
-            <p class="journal-excerpt">
-              Phone Interview / Article - Bike across Canada
-            </p>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a
-          class="journal-post"
-          href="https://www.revelstokereview.com/community/avid-skier-learns-coding-to-create-text-messaging-service-for-rogers-pass-backcountry-users/"
-          target="_blank"
-        >
-          <div>
-            <h2 class="journal-title">Revelstoke Review</h2>
-            <p class="journal-excerpt">
-              Phone Interview / Article - Rogers Pass SMS service
-            </p>
+            <h2 class="journal-title">{{ data.title }}</h2>
+            <p class="journal-excerpt">{{ data.desc }}</p>
           </div>
         </a>
       </li>
@@ -91,7 +17,7 @@
     <hr />
     <div class="row">
       <div class="column">
-        <img src="/assets/specialized.png" alt="Specialized Canada"/>
+        <img src="/assets/specialized.png" alt="Specialized Canada" />
       </div>
       <div class="column">
         <img src="/assets/freshair.png" alt="Fresh Air" />
@@ -104,7 +30,9 @@
 </template>
 
 <script>
+import pressData from "../content/press.json";
 export default {
+  pressData: pressData,
   head: {
     title: "Will Zittlau - Media",
     meta: [
@@ -201,7 +129,7 @@ ul {
     width: 33.33%;
   }
   .journal img {
-  height: 200px;
-}
+    height: 200px;
+  }
 }
 </style>

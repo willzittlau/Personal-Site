@@ -24,7 +24,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Will Zittlau - Skiing, Climbing, Running, Backpacking, Biking & More."
+        content: "Will Zittlau - Exploring & sharing the human experience."
       }
     ],
     link: [

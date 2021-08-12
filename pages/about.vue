@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="journal">
-      <h1>Who Am I?</h1>
+      <h1>About me</h1>
       <hr />
     </div>
     <div class="mdpage">
