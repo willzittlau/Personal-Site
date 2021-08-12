@@ -3,7 +3,7 @@
     <img
       id="userPhoto"
       src="https://willzittlau.com/favicon.png"
-      alt="Animated GIF image of Clyde D'Souza"
+      alt="Will Zittlau"
     />
     <div id="bio">
       <h2>Will Zittlau</h2>
