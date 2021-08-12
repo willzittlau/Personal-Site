@@ -91,7 +91,7 @@ ul {
   padding: 0;
 }
 .journal-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(50, 50, 50);
   font-weight: 600;
 }
