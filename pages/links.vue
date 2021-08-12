@@ -16,105 +16,27 @@
       <h6>Exploring & sharing the human experience.</h6>
     </div>
     <div id="links">
-      <a class="link" href="mailto:contact@willzittlau.com" target="_blank">
-        <img src="/assets/email.png" alt="email" width="40" height="40" />
-        Email Enquiries
-      </a>
       <a
+        v-for="data in $options.linkData.main"
+        :key="data.id"
         class="link"
-        href="https://www.instagram.com/willzittlau/"
         target="_blank"
+        :href="data.url"
       >
         <img
-          src="/assets/instagram.png"
-          alt="instagram"
+          :src="'/assets/' + data.img + '.png'"
+          :alt="data.img"
           width="40"
           height="40"
         />
-        Instagram
+        {{ data.title }}
       </a>
-      <a class="link" href="https://tiktok.com/@willzittlau" target="_blank">
-        <img
-          src="/assets/tiktok.png"
-          alt="tiktok"
-          width="40"
-          height="40"
-        />TikTok</a
-      >
-      <a
-        class="link"
-        href="https://www.strava.com/athletes/8709142"
-        target="_blank"
-      >
-        <img
-          src="/assets/strava.png"
-          alt="strava"
-          width="40"
-          height="40"
-        />Strava</a
-      >
-      <a class="link" href="https://willzittlau.com/" target="_blank">
-        <img src="/assets/pen.png" alt="blog" width="40" height="40" />Personal
-        Blog</a
-      >
-      <a class="link" href="https://getaccountable.ca" target="_blank"
-        ><img
-          src="/assets/accountable.png"
-          alt="accountable"
-          width="40"
-          height="40"
-        />Mobile app I'm building</a
-      >
-      <a class="link" href="https://www.paypal.me/willzittlau" target="_blank"
-        ><img src="/assets/coffee.png" alt="coffee" width="40" height="40" />Buy
-        me a coffee</a
-      >
     </div>
     <div id="socialLinks">
-      <span>
-        <a href="https://tiktok.com/@willzittlau">
+      <span v-for="data in $options.linkData.icon" :key="data.id">
+        <a :href="data.url">
           <fa
-            :icon="['fab', 'tiktok']"
-            style="font-size: 35px"
-          />&nbsp;&nbsp;&nbsp;
-        </a>
-      </span>
-      <span>
-        <a href="https://www.instagram.com/willzittlau/">
-          <fa
-            :icon="['fab', 'instagram']"
-            style="font-size: 35px"
-          />&nbsp;&nbsp;&nbsp;
-        </a>
-      </span>
-      <span>
-        <a href="https://www.strava.com/athletes/8709142">
-          <fa
-            :icon="['fab', 'strava']"
-            style="font-size: 35px"
-          />&nbsp;&nbsp;&nbsp;
-        </a>
-      </span>
-      <span>
-        <a href="https://github.com/willzittlau">
-          <fa
-            :icon="['fab', 'github']"
-            style="font-size: 35px"
-          />&nbsp;&nbsp;&nbsp;
-        </a>
-      </span>
-      <span>
-        <a href="https://www.linkedin.com/in/will-zittlau/">
-          <fa
-            :icon="['fab', 'linkedin']"
-            style="font-size: 35px"
-          />&nbsp;&nbsp;&nbsp;
-        </a>
-      </span>
-      <span>
-        <a href="mailto:contact@willzittlau.com">
-          <fa
-            :icon="['fas', 'envelope']"
+            :icon="[data.type, data.name]"
             style="font-size: 35px"
           />&nbsp;&nbsp;&nbsp;
         </a>
@@ -127,7 +49,9 @@
 </template>
 
 <script>
+import linkData from "../content/links.json";
 export default {
+  linkData: linkData,
   layout: "links",
   head: {
     title: "Will Zittlau - Links",
