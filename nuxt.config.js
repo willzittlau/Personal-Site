@@ -6,7 +6,7 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: "spa",
+  ssr: false,
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -52,7 +52,8 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    {src: "~/plugins/disqus", mode: 'client'}
+    {src: "~/plugins/disqus", mode: 'client'},
+    { src: "~/plugins/typed.js", ssr: true }
   ],
   /*
    ** Auto import components

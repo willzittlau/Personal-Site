@@ -22,7 +22,8 @@
     "prism-themes": "^1.4.0",
     "reading-time": "^1.2.0",
     "vue-disqus": "^4.0.1",
-    "vue-masonry-wall": "^0.3.2"
+    "vue-masonry-wall": "^0.3.2",
+    "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {}
 }
