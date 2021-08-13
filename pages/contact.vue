@@ -77,7 +77,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Will Zittlau - Contact me",
+        content: "Will Zittlau - Contact",
       },
     ],
   },

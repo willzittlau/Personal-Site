@@ -34,12 +34,12 @@ import pressData from "../content/press.json";
 export default {
   pressData: pressData,
   head: {
-    title: "Will Zittlau - Media",
+    title: "Will Zittlau - Press",
     meta: [
       {
         hid: "description",
         name: "description",
-        content: "Will Zittlau - Media",
+        content: "Will Zittlau - Press",
       },
     ],
   },
