@@ -26,6 +26,10 @@
         <img src="/assets/okbikeski.png" alt="Okanagan Bike & Ski" />
       </div>
     </div>
+    <h3>
+      For enquiries:
+      <a href="mailto:contact@willzittlau.com">contact@willzittlau.com</a>
+    </h3>
   </div>
 </template>
 
@@ -70,6 +74,7 @@ hr {
   display: flex;
   flex-direction: column;
   padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 .journal img {
   height: 100px;

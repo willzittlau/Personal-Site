@@ -2,29 +2,12 @@
   <footer class="site-footer">
     <div class="columns is-gapless is-centered is-vcentered">
       <div class="column is-one-quarter has-text-centered">
-                <span>
-          <a href="https://tiktok.com/@willzittlau">
-            <fa :icon="['fab', 'tiktok']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
-          </a>
-        </span>
-        <span>
-          <a href="https://www.instagram.com/willzittlau/">
-            <fa :icon="['fab', 'instagram']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
-          </a>
-        </span>
-        <span>
-          <a href="https://www.strava.com/athletes/8709142">
-            <fa :icon="['fab', 'strava']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
-          </a>
-        </span>
-        <span>
-          <a href="https://github.com/willzittlau">
-            <fa :icon="['fab', 'github']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
-          </a>
-        </span>
-        <span>
-          <a href="https://www.linkedin.com/in/will-zittlau/">
-            <fa :icon="['fab', 'linkedin']" style="font-size: 35px" />&nbsp;&nbsp;&nbsp;
+        <span v-for="data in $options.linkData.icon" :key="data.id">
+          <a :href="data.url">
+            <fa
+              :icon="[data.type, data.name]"
+              style="font-size: 32px"
+            />&nbsp;&nbsp;&nbsp;
           </a>
         </span>
       </div>
@@ -34,11 +17,16 @@
         <br />
         <span>
           <a href="https://nuxtjs.org/">
-            <img width="100" height="18" src="~assets/built-with-nuxt-light.svg" alt="Built with Nuxt" />
+            <img
+              width="100"
+              height="18"
+              src="~assets/built-with-nuxt-light.svg"
+              alt="Built with Nuxt"
+            />
           </a>
         </span>
         and made with
-        <span style="color: #e25555;">&#9829;</span>
+        <span style="color: #e25555">&#9829;</span>
       </div>
       <br />
       <div class="column has-text-centered"></div>
@@ -55,7 +43,9 @@
 </template>
 
 <script>
+import linkData from "../content/links.json";
 export default {
+  linkData: linkData,
   name: "Footer",
 };
 </script>
