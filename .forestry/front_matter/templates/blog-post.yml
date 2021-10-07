@@ -1,0 +1,25 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: createdAt
+  label: createdAt
+- type: text
+  name: description
+  label: description
+- type: text
+  name: img
+  label: img
+- type: text
+  name: alt
+  label: alt
+- type: text
+  name: featured
+  label: featured
+- type: list
+  name: tags
+  label: tags
