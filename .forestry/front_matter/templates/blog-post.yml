@@ -23,8 +23,5 @@ fields:
 - type: list
   name: tags
   label: tags
-- name: featured_
-  type: boolean
-  label: Featured?
 pages:
 - content/articles/biking-across-canada.md
