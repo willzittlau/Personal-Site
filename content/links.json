@@ -31,6 +31,11 @@
       "img": "accountable"
     },
     {
+      "url": "https://skiforecast.herokuapp.com",
+      "title": "Ski / Weather Forecast",
+      "img": "forecast"
+    },
+    {
       "url": "https://www.paypal.me/willzittlau",
       "title": "Buy me a coffee",
       "img": "coffee"

@@ -92,7 +92,7 @@ body {
   width: 120px;
   height: 120px;
   display: block;
-  margin: 30px auto 20px;
+  margin: 10px auto 20px;
   border: 3px solid black;
   border-radius: 50%;
 }
