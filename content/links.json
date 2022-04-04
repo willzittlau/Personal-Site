@@ -26,16 +26,6 @@
       "img": "blog"
     },
     {
-      "url": "https://getaccountable.ca",
-      "title": "Mobile app I'm building",
-      "img": "accountable"
-    },
-    {
-      "url": "https://skiforecast.herokuapp.com",
-      "title": "Ski / Weather Forecast",
-      "img": "forecast"
-    },
-    {
       "url": "https://www.paypal.me/willzittlau",
       "title": "Buy me a coffee",
       "img": "coffee"
@@ -56,11 +46,6 @@
       "url": "https://www.strava.com/athletes/8709142",
       "type": "fab",
       "name": "strava"
-    },
-    {
-      "url": "https://github.com/willzittlau",
-      "type": "fab",
-      "name": "github"
     },
     {
       "url": "https://www.linkedin.com/in/will-zittlau/",
