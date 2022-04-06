@@ -20,6 +20,9 @@
         <img src="/assets/specialized.png" alt="Specialized Canada" />
       </div>
       <div class="column">
+        <img src="/assets/tpc.jpg" alt="The Pros Closet" />
+      </div>
+      <div class="column">
         <img src="/assets/freshair.png" alt="Fresh Air" />
       </div>
       <div class="column">
