@@ -13,7 +13,8 @@
       </span>
       <br />
       <br />
-      <h6>Exploring & sharing the human experience.</h6>
+      <h6>adventure & endurance athlete</h6>
+      <h6>🏃‍♂️&nbsp;🚴‍♂️&nbsp;🏔️⁣</h6>
     </div>
     <div id="links">
       <a

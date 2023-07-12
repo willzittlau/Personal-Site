@@ -1,9 +1,9 @@
 {
   "main": [
     {
-      "url": "mailto:contact@willzittlau.com",
-      "title": "Email Enquiries",
-      "img": "email"
+      "url": "https://www.strava.com/athletes/8709142",
+      "title": "Strava",
+      "img": "strava"
     },
     {
       "url": "https://www.instagram.com/willzittlau/",
@@ -16,26 +16,26 @@
       "img": "tiktok"
     },
     {
-      "url": "https://www.strava.com/athletes/8709142",
-      "title": "Strava",
-      "img": "strava"
+      "url": "mailto:contact@willzittlau.com",
+      "title": "Email Enquiries",
+      "img": "email"
     },
     {
-      "url": "https://willzittlau.com/",
-      "title": "Personal Blog",
-      "img": "blog"
+      "url": "https://bit.ly/46DOh0y",
+      "title": "Where I Buy My Gear",
+      "img": "mec"
     },
     {
-      "url": "https://www.paypal.me/willzittlau",
-      "title": "Buy me a coffee",
-      "img": "coffee"
+      "url": "https://lighterpack.com/r/rvyz2l",
+      "title": "Colorado Trail Packing List",
+      "img": "list"
     }
   ],
   "icon": [
     {
-      "url": "https://tiktok.com/@willzittlau",
+      "url": "https://www.strava.com/athletes/8709142",
       "type": "fab",
-      "name": "tiktok"
+      "name": "strava"
     },
     {
       "url": "https://www.instagram.com/willzittlau/",
@@ -43,9 +43,9 @@
       "name": "instagram"
     },
     {
-      "url": "https://www.strava.com/athletes/8709142",
+      "url": "https://tiktok.com/@willzittlau",
       "type": "fab",
-      "name": "strava"
+      "name": "tiktok"
     },
     {
       "url": "https://www.linkedin.com/in/will-zittlau/",
